@@ -1,0 +1,485 @@
+/* Hero Banner Starts Here */
+
+.Contact_Hero_Banner_Section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 650px;
+    grid-template-rows: 650px;
+    grid-column-gap: 0px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.Contact_Hero_Banner_Section>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.Contact-banner-image-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Contact-banner-overlay-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Contact-banner-image {
+    display: -ms-grid;
+    display: grid;
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* Bugs */
+
+.Contact-banner-text-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Contact-banner-text-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: fit-content;
+    background-color: #fff;
+    margin: 250px 100px 200px 60px;
+    padding: 40px 130px 40px 60px;
+    z-index: 2;
+    opacity: .95;
+}
+
+@media screen and (max-width: 1080px) {
+    .Contact-banner-text-div {
+        margin: 225px 50px 120px 50px;
+    }
+    .Heading .break {
+        content: "";
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .Contact-banner-text-div {
+        padding: 70px 10px 70px 10px;
+        margin: 200px 10px 200px 10px;
+    }
+    .Heading br {
+        content: "";
+        display: none;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    .Contact-banner-text-div {
+        margin: 200px 30px 200px 30px;
+        padding: 70px 10px 70px 10px;
+    }
+}
+
+/* Bugs */
+
+/* Contact us form starts here */
+
+.Contact__Form__wrapper {
+    padding: 10px 10px 20px 10px;
+}
+
+.Contact__formRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+}
+
+.Contact__form__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.Dbl__col__inside {
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Text__floating {
+    position: absolute;
+    max-width: 300px;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+.Dbl__col__inside img {
+    width: 100%;
+    min-height: 300px;
+}
+
+.Img__st p {
+    margin-bottom: 0.10rem;
+}
+
+.Contact__form__dbcol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    padding: 0px 0px 60px 0px;
+}
+
+.Text__li li {
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1C3052;
+    font-family: 'Circular_Font';
+}
+
+.Text__floating #SPanner__text {
+    font-family: 'Circular__Medium';
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1C3052;
+}
+
+.Text__floating ul {
+    padding: 30px 42px 30px 42px;
+}
+
+.Text__floating ul li {
+    padding: 5px 5px 5px 5px;
+}
+
+.Text__floating ul {
+    /* list-style-image: url('../Assets/Icons/Phone_Icon.svg'); */
+}
+
+.Text__floating ul .Img__st {
+    list-style-image: url('../Assets/Icons/place.png');
+}
+
+.Img__st p:nth-child(1) {
+    -webkit-transform: translate(0px, -3px);
+    -ms-transform: translate(0px, -3px);
+    transform: translate(0px, -3px);
+}
+
+.Text__floating ul .Img__st1 {
+    list-style-image: url('../Assets/Icons/Phone__call.png');
+}
+
+.Img__st1 p:nth-child(1) {
+    -webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+    transform: translate(0px, -2px);
+}
+
+.responsive-map {
+    overflow: hidden;
+    padding-bottom: 30.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* form starts here */
+
+.floating-label-group {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid #8080805e;
+    border-radius: 0px;
+}
+
+input[type="email"] {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid #8080805e;
+    border-radius: 0px;
+}
+
+input[type="number"] {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid #8080805e;
+    border-radius: 0px;
+}
+
+#Text__area {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid #8080805e;
+    border-radius: 0px;
+}
+
+.floating-label {
+    font-size: var(--Subpara-Font);
+    color: #cccccc;
+    position: absolute;
+    pointer-events: none;
+    top: 9px;
+    left: 0;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+input:focus~.floating-label, input:not(:focus):valid~.floating-label {
+    top: -18px;
+    bottom: 0px;
+    left: 0px;
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #cccccc;
+    font-family: 'Circular_Font';
+    opacity: 1;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+textarea:focus~.floating-label, textarea:not(:focus):valid~.floating-label {
+    top: -18px;
+    bottom: 0px;
+    left: 0px;
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #cccccc;
+    font-family: 'Circular_Font';
+    opacity: 1;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.Form__btn {
+    background-color: #de3d3b;
+    border: none;
+    color: white;
+    padding: 8px 26px 8px 26px;
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    font-family: 'Circular_Font';
+}
+
+.Text__Form {
+    padding: 60px 0px 60px 0px;
+}
+
+.Text__Form h3 {
+    font-size: var(--Subhead-Font);
+    font-family: 'Ubuntu_Regular';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1C3052;
+}
+
+/* form ends here */
+
+#Footer__Container {
+    margin-top: 0rem;
+}
+
+.Social_wrapper {
+    padding: 0px 10px 0px 35px;
+}
+
+@media screen and (min-width: 1920px) {
+    .Text__floating {
+        position: absolute;
+        max-width: 300px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .Text__floating {
+        position: absolute;
+        max-width: 300px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .responsive-map {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+    .Social_wrapper {
+        padding: 0px 10px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Contact__formRow {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .Text__floating {
+        position: absolute;
+        max-width: 300px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .Text__floating {
+        position: absolute;
+        max-width: 300px;
+        top: 20%;
+        margin: auto;
+        right: 0;
+        bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Text__floating {
+        position: absolute;
+        max-width: 300px;
+        top: 20%;
+        margin: auto;
+        bottom: 20%;
+    }
+    .responsive-map {
+        overflow: hidden;
+        padding-bottom: 76.25%;
+        position: relative;
+        height: 0;
+    }
+}
+
+/* contact us form ends here */
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */
+
+/* IE 11/10 Starts Here */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body {
+        -ms-overflow-style: none;
+    }
+    .Contact-banner-text-div {
+        max-width: 900px;
+        width: 100%;
+    }
+    .Text__floating {
+        top: 260px;
+    }
+    .Contact__form__col {
+        padding: 0px 40px 0px 40px;
+    }
+    .Contact-banner-text-div {
+        padding: 40px 60px 40px 60px;
+    }
+    input[type='text'] {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    input[type='email'] {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    input[type='number'] {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    #Text__area {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+    }
+}
+
+/* IE 11/10 Ends Here */
+
+/* *****************************************************Internet Explorer Ends here**************************************************************************************** */

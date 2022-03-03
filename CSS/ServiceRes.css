@@ -1,0 +1,304 @@
+:root {
+    --Head-Font-re: calc(22pt + 0.15vw);
+    --Subhead-Font-re: calc(18pt + 0.15vw);
+    --Para-Font-re: calc(12pt + 0.15vw);
+    --Subpara-Font-re: calc(10pt + 0.15vw);
+    --letter-spacing-re: 0.04em;
+    --line-height-re: 1.6195;
+    --Medium-H3-re: calc(20pt + 0.15vw)
+}
+
+@media only screen and (max-width: 40em) {
+    .Footer__showcase1 h2 {
+        margin-top: 30px;
+    }
+    .Footer__showcase1 {
+        width: 100%;
+        height: 680px;
+        position: relative;
+        color: white;
+        max-width: 1600px;
+    }
+    .Footer__showcase1 .overlay {
+        width: 100%;
+        height: 680px;
+        background-color: rgba(0, 35, 82, 0.7);
+        position: absolute;
+        top: 150px;
+        left: 0;
+        z-index: 999
+    }
+    .Footer__showcase1 h2 {
+        font-size: var(--Subhead-Font-re);
+        padding: 0px 10px 0px 10px;
+    }
+    .Footer__showcase1 #uniags {
+        font-size: var(--Para-Font-re);
+        padding: 0px 10px 0px 10px;
+    }
+    .QES__H3__text {
+        font-size: var(--Medium-H3-re);
+    }
+    .Heading__workflow h2 {
+        font-size: var(--Medium-H3-re);
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+    }
+    #Banner__position {
+        -o-object-position: 70% 50%;
+        object-position: 70% 50%;
+    }
+    /* Workflow */
+    #QES__Large__Screens {
+        display: none;
+    }
+    #QES__Mobile__Screens {
+        display: block;
+    }
+    /* workflow Ends here */
+    #SSO__Bg {
+        display: none;
+    }
+    #SSO__Bg1 {
+        display: none;
+    }
+    #QES__WWD2 {
+        padding: 60px 0px 0px 0px;
+    }
+    .QES__Para__text {
+        font-size: var(--Para-Font-re);
+        letter-spacing: 0.03em;
+    }
+    #QES__WWD li {
+        font-size: var(--Para-Font-re);
+        letter-spacing: 0.03em;
+    }
+    .QES__subpara__text {
+        font-size: var(--Subpara-Font-re);
+    }
+    #Breadcrum__para_text a {
+        font-size: var(--Subpara-Font-re);
+    }
+    /* hide show */
+    .Mobiles {
+        display: block;
+    }
+    .Desk__Lap {
+        display: none;
+    }
+    /* Services Services Starts here */
+    .QES__H3__text__ss br {
+        content: "";
+    }
+    .QES__Inner__part {
+        padding: 60px 10px 60px 10px;
+    }
+    .QES__Inner__part1 {
+        padding: 60px 10px 0px 10px;
+    }
+    #Banner__Breadcrumb {
+        top: 83px;
+    }
+    .QES__subpara__text__ss {
+        font-size: var(--Subpara-Font-re);
+    }
+    .QES__H3__text__ss {
+        font-size: var(--Medium-H3-re);
+    }
+    .QES__Para__text__ss {
+        font-size: var(--Para-Font-re);
+        letter-spacing: 0.03em;
+    }
+    /* Services Services Ends here */
+}
+
+@media only screen and (max-width: 40em) and (orientation:landscape) {
+    .Footer__showcase1 {
+        width: 100%;
+        height: 560px;
+        position: relative;
+        color: white;
+        max-width: 1600px;
+    }
+    .Footer__showcase1 .overlay {
+        width: 100%;
+        height: 560px;
+        background-color: rgba(0, 35, 82, 0.7);
+        position: absolute;
+        top: 150px;
+        left: 0;
+        z-index: 999
+    }
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 40.063em) {
+    .Footer__showcase1 {
+        width: 100%;
+        height: 700px;
+        position: relative;
+        color: white;
+        /* max-width: 1600px; */
+    }
+    .Footer__showcase1 .overlay {
+        width: 100%;
+        height: 700px;
+        background-color: rgba(0, 35, 82, 0.7);
+        position: absolute;
+        top: 150px;
+        left: 0;
+        z-index: 999
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+    #Banner__Breadcrumb {
+        position: relative;
+        width: 100%;
+        top: 83px;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        background-color: #1c3464bd;
+        color: #ffff;
+        padding: 5px 5px 5px 5px;
+    }
+    .services-banner-text-div {
+        margin: 200px 10px 200px 24px;
+    }
+}
+
+/* iPhone X and Xs Max */
+
+@media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    /* styles */
+    #Banner__Breadcrumb {
+        position: relative;
+        width: 100%;
+        top: 83px;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        background-color: #1c3464bd;
+        color: #ffff;
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+/* iPhone XR */
+
+/* Target Portrait and Landscape */
+
+@media screen and (device-width: 411px) and (device-height: 823px) and (-webkit-device-pixel-ratio: 3.5) {
+    #Banner__Breadcrumb {
+        position: relative;
+        width: 100%;
+        top: 83px;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        background-color: #1c3464bd;
+        color: #ffff;
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen and (min-width: 64.063em) {}
+
+/* Desktops and laptops ----------- */
+
+/*1280 x 800*/
+
+@media screen and (max-width: 1280px) and (max-height: 800px) and (min-height: 769px) {
+    .SSO__Inside__contain {
+        padding: 40px 100px 40px 100px;
+    }
+    .Grid__Main__services__QES {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    }
+    .QES__WDD__ServPar br {
+        content: "";
+    }
+}
+
+/*1280 x 960*/
+
+@media screen and (max-width: 1280px) and (max-height: 960px) and (min-height: 801px) {
+    .SSO__Inside__contain {
+        padding: 40px 100px 40px 100px;
+    }
+    .Grid__Main__services__QES {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    }
+    .QES__WDD__ServPar br {
+        content: "";
+    }
+}
+
+/* (1280x720) Galaxy Note 2, WXGA */
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .SSO__Column {
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #SSO__Bg {
+        display: none;
+    }
+    #SSO__Bg1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .SSO__Inside__contain {
+        padding: 40px 70px 40px 70px;
+    }
+    .SSO__Text {
+        padding: 15px 50px 15px 45px;
+    }
+    .SSO__Texts {
+        padding: 20px 0px 20px 0px;
+    }
+    .QES__WDD__ServPar br {
+        content: "";
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .QES__WDD__ServPar br {
+        content: "";
+    }
+}
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 90.063em) {}
+
+/* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+@media only screen and (min-width: 120.063em) {}
+
+/* min-width 1921px, xlarge screens */

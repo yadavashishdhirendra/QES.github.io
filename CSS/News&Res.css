@@ -1,0 +1,475 @@
+/* Hero Banner Starts Here */
+
+.NwesRes__Hero_Banner_Section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 700px;
+    grid-template-rows: 700px;
+    grid-column-gap: 0px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.NwesRes__Hero_Banner_Section>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.NewsR__banner__image__div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.NwsRe__banner__overlay__div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.NwsRe__banner__text__div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.NewSRes__banner__image {
+    display: -ms-grid;
+    display: grid;
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: -122%;
+    object-position: -122%;
+}
+
+@media screen and (max-width: 968px) {
+    .NewSRes__banner__image {
+        -o-object-position: 52%;
+        object-position: 52%;
+    }
+}
+
+.NwsRe__banner__overlay__div {
+    display: -ms-grid;
+    display: grid;
+    max-width: 100%;
+}
+
+.Heading {
+    /* old browser */
+    font-size: calc(38pt + 0.15vw);
+    font-size: var(--Head-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.2165;
+    font-family: 'Ubuntu_Medium';
+    color: #1C3052;
+    margin-bottom: 0px;
+}
+
+.Para {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    padding: 20px 0px 30px 0px;
+    color: var(--para-Color);
+    font-family: 'CircularXX__Light';
+}
+
+#span {
+    position: relative;
+    top: 0;
+    color: #de3d3b;
+    border-radius: 50px;
+    border: 3px solid #de3d3b;
+    border-right-color: transparent;
+    left: 0;
+    padding: 25px 26px 25px 21px;
+}
+
+#spans {
+    position: relative;
+    top: 0;
+    border-radius: 50px;
+    border: 3px solid #de3d3b;
+    border-right-color: transparent;
+    left: 0;
+    padding: 25px 26px 25px 21px;
+}
+
+.btns {
+    position: relative;
+    background-color: transparent !important;
+    padding: 5px 10px 5px 10px;
+    border: none !important;
+    left: -18px;
+    color: #223352;
+    letter-spacing: 0.03em;
+    /* old browser */
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    font-family: 'Circular__Medium';
+}
+
+#hover {
+    margin-bottom: 1.50rem !important;
+}
+
+@media screen and (max-width: 1080px) {
+    .NwesRes__Hero_Banner_Section {
+        -ms-grid-rows: 800px;
+        grid-template-rows: 800px;
+    }
+}
+
+/* Hero Banner Ends Here */
+
+/* Bugs */
+
+.NwsRe__banner__text__div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: fit-content;
+    background-color: #fff;
+    margin: 185px 50px 120px 50px;
+    padding: 30px 70px 40px 50px;
+    z-index: 2;
+    opacity: .98;
+    /* max-width: 720px; */
+}
+
+@media screen and (max-width: 1080px) {
+    .NwsRe__banner__text__div {
+        margin: 270px 50px 135px 50px;
+    }
+    .NewSRes__banner__image {
+        -o-object-position: 42%;
+        object-position: 42%;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .NwsRe__banner__text__div {
+        padding: 85px 25px 125px 25px;
+        margin: 225px 30px 120px 30px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .NwsRe__banner__text__div {
+        padding: 85px 25px 125px 25px;
+        margin: 195px 10px 100px 10px;
+    }
+    .NewSRes__banner__image {
+        -o-object-position: 52%;
+        object-position: 52%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+    .NwsRe__banner__text__div {
+        margin: 160px 25px 105px 25px;
+    }
+}
+
+/* Nwes and Resources rows & colum section starts here */
+
+#Rows__section__hoverable {
+    background-color: #f3f3f3;
+    padding: 60px 10px 100px 10px;
+}
+
+.QES__SECTION__GRya__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+}
+
+.Unique__anchor {
+    text-decoration: none;
+    color: #1C3052 !important;
+}
+
+.QES__Section__Grya__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 15px 0px 15px 0px;
+}
+
+.Grya__colInsideCol {
+    border: 1px solid #b7cde6de;
+    height: auto;
+    padding: 20px 50px 20px 50px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    /* old browser */
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    font-family: 'Circular__Medium';
+    background-color: white;
+}
+
+.Gray__cindise__col {
+    height: auto;
+    border: 1px solid #b7cde6de;
+    padding: 20px 50px 20px 50px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    /* old browser */
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    font-family: 'Circular__Medium';
+    background-color: white;
+}
+
+.Grya__colInsideCol:hover {
+    background-color: #215EAB;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.Gray__cindise__col:hover {
+    background-color: #215EAB;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.Text__inside__row__starts {
+    padding: 0px 0px 30px 0px;
+}
+
+.QES__TEXT__rowsH {
+    /* old browser */
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    letter-spacing: 2px;
+    color: #1C3052;
+}
+
+.QES__Text__h3H {
+    /* old browser */
+    font-size: calc(22pt + 0.15vw);
+    font-size: var(--Subhead-Font);
+    font-family: 'Ubuntu_Regular';
+    color: #1C3052;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 968px) {
+    .Grya__colInsideCol {
+        padding: 20px 15px 20px 15px;
+    }
+    .Gray__cindise__col {
+        padding: 20px 15px 20px 15px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .QES__SECTION__GRya__row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+/* Post layout starts here */
+
+.Post__Layout__container {
+    padding: 60px 10px 100px 10px;
+}
+
+.Text__only__headCon {
+    padding-bottom: 30px;
+}
+
+.First__Post {
+    margin: 20px 0px 50px 0px;
+}
+
+.First__Post a {
+    text-decoration: none;
+}
+
+.First__Post p:nth-child(1) {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'Circular_Font';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #215EAB;
+}
+
+.First__Post p:nth-child(2) {
+    /* old browser */
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    letter-spacing: 2px;
+    color: #1C3052;
+    line-height: 1.6195;
+    font-family: 'Circular__Medium';
+}
+
+@media screen and (max-width: 1080px) {
+    .Unique__post__br br {
+        display: none;
+    }
+}
+
+/* Post layout ends here */
+
+/* PDF section starts here */
+
+#Pdf__section {
+    position: relative;
+    /* max-width: 1600px; */
+    background-image: url('../Assets/Bg Images/christian-perner-UKLIuV8rAks-unsplash.jpg');
+    width: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.Pdf__sections {
+    padding: 60px 10px 100px 10px;
+}
+
+#MRK__Up {
+    margin-top: -10px;
+}
+
+#color-overlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226 226 226);
+    opacity: 0.6;
+}
+
+.Pdf__file__max img {
+    max-width: 425px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 40em) {
+    .Heading {
+        font-size: var(--Head-Font-re);
+    }
+}
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */
+
+/* IE 11/10 Starts Here */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body {
+        -ms-overflow-style: none;
+    }
+    .NwesRes__Hero_Banner_Section {
+        display: -ms-inline-grid;
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 700px;
+    }
+    .NwsRe__banner__text__div {
+        max-width: 700px;
+        width: 100%;
+    }
+    .Grya__colInsideCol {
+        margin: 0px 10px 0px 10px;
+    }
+    #Pdf__section {
+        max-width: none;
+    }
+    .Para br {
+        display: none;
+    }
+}
+
+/* IE 11/10 Ends Here */
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */
+
+/* RSS FEED STYLING */
+
+.entry {
+    display: none;
+    margin: 20px 0px 50px 0px;
+}
+
+.Anchor__Tag {
+    text-decoration: none;
+}
+
+.Title__Rss {
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'Circular_Font';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #215EAB;
+}
+
+.Date__Time {
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    letter-spacing: 2px;
+    font-family: 'Circular__Medium';
+    color: #1C3052;
+    line-height: 1.6195;
+}

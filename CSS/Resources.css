@@ -1,0 +1,461 @@
+/* Hero Banner Starts Here */
+
+.Resources_Hero_Banner_Section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 500px;
+    grid-template-rows: 500px;
+    grid-column-gap: 0px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.Resources_Hero_Banner_Section>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.Resources-banner-image-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Resources-banner-overlay-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Resources-banner-image {
+    display: -ms-grid;
+    display: grid;
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* Bugs */
+
+.Resources-banner-text-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Resources-banner-text-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: fit-content;
+    background-color: #fff;
+    margin: 210px 100px 140px 60px;
+    padding: 40px 450px 40px 60px;
+    z-index: 2;
+    opacity: .95;
+}
+
+@media screen and (max-width: 1080px) {
+    .Resources-banner-text-div {
+        margin: 225px 50px 120px 50px;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .Resources-banner-text-div {
+        padding: 70px 250px 70px 25px;
+        margin: 200px 10px 200px 10px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    .Resources-banner-text-div {
+        margin: 200px 30px 200px 30px;
+        padding: 70px 200px 70px 25px;
+    }
+}
+
+/* Bugs */
+
+/* Text starts here */
+
+.Resources__TextContain {
+    padding: 60px 10px 60px 10px;
+}
+
+.Resources__TextContain p:nth-child(1) {
+    /* old browser */
+    font-size: calc(10pt + 0.15vw);
+    font-size: var(--Subpara-Font);
+    font-family: 'Circular_Font';
+    letter-spacing: 2px;
+    color: #1c3052;
+}
+
+.Resources__TextContain h3 {
+    /* old browser */
+    font-size: calc(22pt + 0.15vw);
+    font-size: var(--Subhead-Font);
+    font-family: 'Ubuntu_Regular';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1c3052;
+}
+
+.Resources__TextContain p:nth-child(3) {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'CircularXX__Light';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1C3052;
+}
+
+@media screen and (max-width: 1080px) {
+    .Resources__TextContain p:nth-child(3) br {
+        display: none;
+    }
+}
+
+/* Text ends here */
+
+/* Box starts here */
+
+.Box__container {}
+
+.Box__sideRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.DiffCol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-left: 1px solid white;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    background-color: #1C3052;
+    color: white;
+}
+
+.Right__insideCol {
+    border-right: 1px solid white;
+    min-height: 100px;
+    padding: 0px 10px 0px 10px;
+    background-color: #1C3052;
+    color: white;
+}
+
+.Right__insideCol p {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'CircularXX__Light';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.DiffCol p {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'CircularXX__Light';
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.Right__sideBOXcol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+/* Another row starts here */
+
+.Box__sideRow__Next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.DiffCol__Next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid rgba(128, 128, 128, 0.34);
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.Right__insideCol__Next {
+    border: 1px solid rgba(128, 128, 128, 0.34);
+    min-height: 80px;
+    padding: 0px 10px 0px 10px;
+}
+
+.Right__insideCol__Next p {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'CircularXX__Light';
+    color: #1C3052;
+    font-weight: 600;
+    line-height: 1.6195;
+    letter-spacing: 0.03em;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.DiffCol__Next p {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'CircularXX__Light';
+    letter-spacing: 0.03em;
+    color: #215EAB;
+    font-weight: 600;
+    line-height: 1.6195;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.Right__sideBOXcol__Next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+/* Another row ends here */
+
+@media screen and (max-width: 968px) {
+    .Right__insideCol {
+        min-height: 140px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .Right__insideCol {
+        min-height: 190px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Right__insideCol {
+        min-height: 220px;
+    }
+}
+
+/* Another Media query */
+
+@media screen and (max-width: 968px) {
+    .Right__insideCol__Next {
+        min-height: 120px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .Right__insideCol__Next {
+        min-height: 160px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Right__insideCol__Next {
+        min-height: 140px;
+    }
+}
+
+/* Another media query ends here */
+
+/* Box ends here */
+
+/* Footer above section starts here */
+
+.FooTer__absection {
+    padding: 60px 10px 60px 10px;
+}
+
+.FooTer__absection .Nth__st {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    font-family: 'CircularXX__Light';
+    letter-spacing: 0.03em;
+    color: #1C3052;
+    font-weight: 600;
+    line-height: 1.6195;
+}
+
+.Nth__nd {
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    letter-spacing: 0.03em;
+    font-family: 'CircularXX__Light';
+    color: #1C3052;
+}
+
+.FooTer__absection p {
+    margin-bottom: 0.50rem;
+}
+
+.under__linetext {
+    border-bottom: 2px solid #1C3052;
+    /* old browser */
+    font-size: calc(13pt + 0.15vw);
+    font-size: var(--Para-Font);
+    letter-spacing: 0.03em;
+    color: #1C3052;
+    font-weight: 600;
+}
+
+.udnerine__text {
+    padding: 20px 0px 20px 0px;
+}
+
+/* Footer above section ends here */
+
+.Footer__Row {
+    padding: 50px 20px 80px 20px;
+}
+
+.Footer__Row p {
+    letter-spacing: 1px;
+    color: white;
+}
+
+#Footer__Container {
+    margin-top: -10rem;
+}
+
+.Social_wrapper {
+    padding: 0px 10px 0px 35px;
+}
+
+@media screen and (max-width: 1080px) {
+    .Social_wrapper {
+        padding: 0px 10px 0px 0px;
+    }
+}
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */
+
+/* IE 11/10 Starts Here */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body {
+        -ms-overflow-style: none;
+    }
+    .Resources_Hero_Banner_Section {
+        display: -ms-inline-grid;
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 700px;
+    }
+    .Resources-banner-text-div {
+        max-width: 700px;
+        width: 100%;
+    }
+    .Resources-banner-text-div {
+        margin: 210px 100px 300px 60px;
+    }
+}
+
+/* IE 11/10 Ends Here */
+
+/* *****************************************************Internet Explorer Ends here**************************************************************************************** */

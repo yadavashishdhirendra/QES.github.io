@@ -1,0 +1,579 @@
+:root {
+    --Head-Font-re: calc(22pt + 0.15vw);
+    --Subhead-Font-re: calc(18pt + 0.15vw);
+    --Para-Font-re: calc(12pt + 0.15vw);
+    --Subpara-Font-re: calc(10pt + 0.15vw);
+    --letter-spacing-re: 0.04em;
+    --line-height-re: 1.6195;
+    --Medium-H3-re: calc(20pt + 0.15vw)
+}
+
+@media only screen and (max-width: 40em) {
+    /* .Scroll__Icon {
+        bottom: 50px;
+    } */
+    /* QC Updates */
+    .QES__NewsReso {
+        padding: 50px 0px 50px 0px;
+    }
+    /* QC updates ends here */
+    #transform__QES {
+        -webkit-transform: translate(70px, 25px) !important;
+        -ms-transform: translate(70px, 25px) !important;
+        transform: translate(70px, 25px) !important;
+    }
+    .Heading_5 {
+        font-size: var(--Subhead-Font-re);
+    }
+    .toggle {
+        display: block;
+        padding: 0px 15px;
+        color: #1C3052;
+        font-size: var(--Subpara-Font);
+        font-family: 'Circular__Medium';
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        letter-spacing: 0.03em;
+    }
+    #Label__float {
+        padding: 0px !important;
+    }
+    .grid-item-wrapper {
+        border: none;
+    }
+    .QES__mobipadd {
+        margin: 0rem 4rem 0rem 0rem;
+    }
+    #logo #QES__Logo {
+        width: 210px !important;
+        padding: 10px 0px 10px 0px;
+    }
+    .Heading {
+        font-size: var(--Head-Font-re);
+    }
+    .line__full {
+        margin-top: 10rem;
+    }
+    .break {
+        display: none;
+    }
+    .Para {
+        font-size: var(--Para-Font-re);
+    }
+    #transform__QES {
+        width: 200px;
+    }
+    #spans::before {
+        padding: 20px;
+    }
+    #Nav__Logo {
+        padding: 10px 10px 10px 10px !important;
+        width: 50px !important;
+        margin: 10px 10px;
+    }
+    .Heading_1 {
+        font-size: var(--Medium-H3-re);
+    }
+    .Heading_2 {
+        font-size: var(--Medium-H3-re);
+    }
+    .Para_1 {
+        font-size: var(--Para-Font-re);
+    }
+    .Para_2 {
+        font-size: var(--Para-Font-re);
+    }
+    .Para_3 {
+        font-size: var(--Para-Font-re);
+    }
+    .QES_left3col p {
+        font-size: var(--Subpara-Font-re);
+    }
+    .btns {
+        font-size: var(--Subpara-Font-re);
+    }
+    #span::before {
+        padding: 20px;
+    }
+    .banner-text-div #btns {
+        left: 85px;
+    }
+    .gallery {
+        margin: 70px auto 0px auto;
+    }
+    .gallery .tile {
+        width: 100%;
+    }
+    .Wrapper__Side1 {
+        padding: 0px 0px 0px 0px;
+    }
+    .One__Column {
+        padding: 0px 20px 0px 20px;
+    }
+    .QES_AsideRow {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .Wrapper__Side1 {
+        padding: 50px 0px 50px 0px;
+    }
+    .Footer__showcase h2 {
+        margin-top: 30px;
+    }
+    .Footer__showcase {
+        width: 100%;
+        height: 680px;
+        position: relative;
+        color: white;
+        max-width: 1600px;
+    }
+    .Footer__showcase .overlay {
+        width: 100%;
+        height: 680px;
+        background-color: rgba(0, 35, 82, 0.7);
+        position: absolute;
+        top: 150px;
+        left: 0;
+        z-index: 999
+    }
+    .Footer__Column {
+        display: block;
+    }
+    .QES_AsideRow {
+        padding: 0px 10px 0px 10px;
+    }
+    .Footer__showcase h2 {
+        font-size: var(--Subhead-Font-re);
+        padding: 0px 10px 0px 10px;
+    }
+    .Footer__showcase #uniags {
+        font-size: var(--Para-Font-re);
+        padding: 0px 10px 0px 10px;
+    }
+    .wrapping-link {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #215ea81f;
+    }
+    #abeerdeen_sta {
+        width: 220px;
+        -webkit-transform: translate(0px, 10px);
+        -ms-transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
+    }
+    #Wells_fargo {
+        width: 90px;
+        -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+    }
+    #AIG_Logo {
+        width: 200px;
+        -webkit-transform: translate(0px, 10px);
+        -ms-transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
+    }
+    #Manning__Napier {
+        -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+        width: 180px;
+    }
+    #Nomura {
+        width: 160px;
+        -webkit-transform: translate(0px, 32px) !important;
+        -ms-transform: translate(0px, 32px) !important;
+        transform: translate(0px, 32px) !important;
+    }
+    #US__Bank {
+        width: 160px;
+        -webkit-transform: translate(0px, 25px) !important;
+        -ms-transform: translate(0px, 25px) !important;
+        transform: translate(0px, 25px) !important;
+    }
+    #transform__QES {
+        -webkit-transform: translate(0px, 25px) !important;
+        -ms-transform: translate(0px, 25px) !important;
+        transform: translate(0px, 25px) !important;
+        width: 180px;
+    }
+    #Para__unique {
+        padding: 10px 15px 10px 15px !important;
+    }
+    .QES__Column {
+        -webkit-transform: translate(0px, 20px);
+        -ms-transform: translate(0px, 20px);
+        transform: translate(0px, 20px);
+    }
+    .gallery .tile .post {
+        padding: 2em 0em;
+    }
+    .Social_wrapper #nishyg {
+        padding: 20px 0px 0px 0px;
+        -webkit-transform: translate(0px, 20px) !important;
+        -ms-transform: translate(0px, 20px) !important;
+        transform: translate(0px, 20px) !important;
+    }
+    .Footer__Row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .Social_wrapper a img {
+        padding: 30px 15px 0px 15px;
+        width: 65px;
+    }
+    .Icon__Wrapper {
+        position: absolute;
+        right: 0;
+    }
+    #nishyg {
+        -webkit-transform: translate(0px, 20px);
+        -ms-transform: translate(0px, 20px);
+        transform: translate(0px, 20px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .QES__mobipadd {
+        margin: 0rem 8.50rem 0rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 40em) and (orientation:landscape) {
+    .Footer__showcase {
+        width: 100%;
+        height: 560px;
+        position: relative;
+        color: white;
+        max-width: 1600px;
+    }
+    .Footer__showcase .overlay {
+        width: 100%;
+        height: 560px;
+        background-color: rgba(0, 35, 82, 0.7);
+        position: absolute;
+        top: 150px;
+        left: 0;
+        z-index: 999
+    }
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 40.063em) {
+    .Footer__showcase {
+        width: 100%;
+        min-height: 700px;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        color: white;
+        /* max-width: 1600px; */
+    }
+    .Footer__showcase .overlay {
+        width: 100%;
+        min-height: 700px;
+        background-color: rgba(0, 35, 82, 0.7);
+        position: absolute;
+        top: 150px;
+        left: 0;
+        z-index: 999;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+    .banner-text-div {
+        margin: 160px 25px 105px 25px;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+    #abeerdeen_sta {
+        width: 250px;
+        -webkit-transform: translate(0px, 10px);
+        -ms-transform: translate(0px, 10px);
+        transform: translate(0px, 10px);
+    }
+    #Wells_fargo {
+        width: 95px;
+        -webkit-transform: translate(0px, 0px) !important;
+        -ms-transform: translate(0px, 0px) !important;
+        transform: translate(0px, 0px) !important;
+    }
+    #AIG_Logo {
+        width: 230px;
+        -webkit-transform: translate(0px, 10px) !important;
+        -ms-transform: translate(0px, 10px) !important;
+        transform: translate(0px, 10px) !important;
+    }
+    #Manning__Napier {
+        -webkit-transform: translate(0px, 0px) !important;
+        -ms-transform: translate(0px, 0px) !important;
+        transform: translate(0px, 0px) !important;
+    }
+    #Nomura {
+        -webkit-transform: translate(0px, 25px) !important;
+        -ms-transform: translate(0px, 25px) !important;
+        transform: translate(0px, 25px) !important;
+        width: 180px;
+    }
+    #US__Bank {
+        -webkit-transform: translate(0px, 25px) !important;
+        -ms-transform: translate(0px, 25px) !important;
+        transform: translate(0px, 25px) !important;
+    }
+    #sprott {
+        -webkit-transform: translate(0px, 25px) !important;
+        -ms-transform: translate(0px, 25px) !important;
+        transform: translate(0px, 25px) !important;
+        width: 160px;
+    }
+    .line__full {
+        margin-top: 5rem;
+    }
+    #logo #QES__Logo {
+        width: 200px !important;
+    }
+    #Label__float {
+        padding: 0px !important;
+    }
+    #Nav__Logo {
+        padding: 7px 10px 10px 10px;
+    }
+    .content__details {
+        padding: 1rem;
+    }
+}
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen and (min-width: 64.063em) {
+    #Block {
+        display: block;
+    }
+    ul li a.active::after {
+        background-color: #de3d3b;
+        display: block;
+        bottom: 0;
+        line-height: 30px;
+        height: 3px;
+        width: 100%;
+        -webkit-transform: translate(0px, -11px);
+        -ms-transform: translate(0px, -11px);
+        transform: translate(0px, -11px);
+    }
+    /* Nav Menu Underline effect starts here */
+    .menu .undered {
+        -webkit-transition: color 0.1s, background-color 0.1s;
+        -o-transition: color 0.1s, background-color 0.1s;
+        transition: color 0.1s, background-color 0.1s;
+    }
+    .menu .undered {
+        position: relative;
+        display: block;
+        padding: 0px 0;
+        margin: 0 12px;
+        -webkit-transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+        -o-transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+        transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+    }
+    .menu .undered::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: #de3d3b;
+        -webkit-transform-origin: right top;
+        -ms-transform-origin: right top;
+        transform-origin: right top;
+        -webkit-transform: scale(0, 1);
+        -ms-transform: scale(0, 1);
+        transform: scale(0, 1);
+        -webkit-transition: color 0.1s, -webkit-transform 0.2s ease-out;
+        transition: color 0.1s, -webkit-transform 0.2s ease-out;
+        -o-transition: color 0.1s, transform 0.2s ease-out;
+        transition: color 0.1s, transform 0.2s ease-out;
+        transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    }
+    .menu .undered:active::before {
+        background-color: #de3d3b;
+    }
+    .menu .undered:hover::before, .menu .undered:focus::before {
+        -webkit-transform-origin: left top;
+        -ms-transform-origin: left top;
+        transform-origin: left top;
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    /* ul */
+    .ul__list__only {
+        text-decoration: none;
+        display: inline-block;
+        color: #1C3052;
+    }
+    /* add a empty string after the elment with class .slide-left-right */
+    .ul__list__only:after {
+        content: '';
+        display: block;
+        line-height: 0px;
+        position: absolute;
+        bottom: 10px;
+        height: 3px;
+        width: 0;
+        background: transparent;
+        -o-transition: width .3s ease, background-color .3s ease;
+        transition: width .3s ease, background-color .3s ease;
+        /* .3 seonds for changes to the width and background-color */
+        -webkit-transition: width .3s ease, background-color .3s ease;
+        /* Chrome and Safari */
+        -moz-transition: width .3s ease, background-color .3s ease;
+        /* FireFox */
+    }
+    /* Change the width and background on hover, aka sliding out */
+    .ul__list__only:hover:after {
+        width: 100%;
+        background: #ffff;
+        position: absolute;
+        bottom: 10px;
+    }
+    /* Nav Menu Underline effect ends here */
+}
+
+/* Desktops and laptops ----------- */
+
+/*1280 x 800*/
+
+@media screen and (max-width: 1280px) and (max-height: 800px) and (min-height: 769px) {
+    #logo {
+        width: 100px;
+        padding: 8px 0px 2px 0px;
+    }
+    #Remoe_Itt {
+        /* padding: 50px 60px 50px 60px; */
+    }
+    .QES__BBres {
+        border-right: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    .QES__Res_odd {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    .col {
+        width: 20em;
+    }
+    /* QC Updates */
+    .Social_wrapper {
+        padding: 0px 10px 0px 0px;
+    }
+    /* Qc Updates ends here */
+}
+
+/*1280 x 960*/
+
+@media screen and (max-width: 1280px) and (max-height: 960px) and (min-height: 801px) {
+    #logo {
+        width: 100px;
+        padding: 8px 0px 2px 0px;
+    }
+    .QES__BBres {
+        border-right: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    .QES__Res_odd {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+    }
+    .col {
+        width: 20em;
+    }
+    /* QC Updates */
+    .Social_wrapper {
+        /* padding: 0px 10px 0px 20px; */
+    }
+    /* Qc Updates ends here */
+}
+
+/* (1280x720) Galaxy Note 2, WXGA */
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    #logo {
+        width: 100px;
+        padding: 8px 0px 2px 0px;
+    }
+    .col {
+        width: 20em;
+    }
+    .WXga {
+        border-right: 2px solid rgba(159, 159, 159, 0.19);
+    }
+    .WXGA {
+        border-bottom: 1px solid rgba(159, 159, 159, 0.19);
+    }
+    /* QC Updates */
+    .Social_wrapper {
+        padding: 0px 10px 0px 0px;
+    }
+    /* Qc Updates ends here */
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    nav a {
+        padding: 0px 20px !important;
+    }
+    .QES__BBres {
+        border-right: 1px solid rgba(128, 128, 128, 0.19);
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #Block {
+        display: block;
+    }
+    nav a {
+        padding: 0 10px;
+    }
+    #Remoe_Itt {
+        padding: 65px 110px 65px 110px;
+    }
+    .QES__Row {
+        padding: 0px 30px 0px 30px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 90.063em) {}
+
+/* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+@media only screen and (min-width: 120.063em) {}
+
+/* min-width 1921px, xlarge screens */

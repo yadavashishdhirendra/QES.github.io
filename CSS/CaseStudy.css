@@ -1,0 +1,217 @@
+/* Hero Banner Starts Here */
+
+.CaseS_Hero_Banner_Section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 500px;
+    grid-template-rows: 500px;
+    grid-column-gap: 0px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.CaseS_Hero_Banner_Section>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.CaseS-banner-image-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.CaseS-banner-overlay-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.CaseS-banner-text-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.CaseS-banner-image {
+    display: -ms-grid;
+    display: grid;
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 70% 0%;
+    object-position: 70% 0%;
+}
+
+.Heading {
+    font-size: var(--Head-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.2165;
+    font-family: 'Ubuntu_Medium';
+    color: #1C3052;
+    margin-bottom: 0px;
+}
+
+.Para {
+    font-size: var(--Para-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    padding: 20px 0px 20px 0px;
+    color: var(--para-Color);
+}
+
+#span {
+    position: relative;
+    top: 0;
+    color: #de3d3b;
+    border-radius: 50px;
+    border: 3px solid #de3d3b;
+    border-right-color: transparent;
+    left: 0;
+    padding: 25px 26px 25px 21px;
+}
+
+#spans {
+    position: relative;
+    top: 0;
+    border-radius: 50px;
+    border: 3px solid #de3d3b;
+    border-right-color: transparent;
+    left: 0;
+    padding: 25px 26px 25px 21px;
+}
+
+.btns {
+    position: relative;
+    background-color: transparent !important;
+    padding: 5px 10px 5px 10px;
+    border: none !important;
+    left: -18px;
+    color: #223352;
+    letter-spacing: 0.03em;
+    font-size: var(--Subpara-Font);
+    font-family: 'Circular__Medium';
+}
+
+/* Bugs */
+
+.CaseS-banner-text-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: fit-content;
+    background-color: #fff;
+    margin: 210px 100px 140px 60px;
+    padding: 40px 265px 40px 60px;
+    z-index: 2;
+    opacity: .95;
+}
+
+@media screen and (max-width: 1080px) {
+    .CaseS-banner-text-div {
+        margin: 225px 50px 120px 50px;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .CaseS-banner-text-div {
+        padding: 70px 90px 70px 25px;
+        margin: 200px 10px 200px 10px;
+    }
+    .Heading {
+        font-size: var(--Head-Font-re);
+    }
+}
+
+/* Bug Ends Here */
+
+@media screen and (max-width: 1080px) {
+    .CaseS_Hero_Banner_Section {
+        -ms-grid-rows: 500px;
+        grid-template-rows: 500px;
+    }
+}
+
+/* Hero Banner Ends Here */
+
+/* Case study padding in rays section starts here */
+
+#CI__Rays__section {
+    padding: 80px 0px 150px 0px;
+}
+
+.CI__FloatingNow__leftside {
+    padding: 20px 30px 20px 30px;
+}
+
+.CI__Float__InsideDIV {
+    padding: 20px 30px 20px 30px;
+}
+
+#Casestudy__height{
+    max-width: 400px !important;
+    min-height: 400px !important;
+}
+
+@media screen and (max-width: 768px) {
+    #Flex__Row{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .CaseS-banner-text-div{
+        margin: 200px 35px 200px 35px;
+    }
+}
+
+/* Case study padding in rays section ends here */
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */
+
+/* IE 11/10 Starts Here */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body {
+        -ms-overflow-style: none;
+    }
+    .CaseS_Hero_Banner_Section {
+        display: -ms-inline-grid;
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 700px;
+    }
+    .CaseS-banner-text-div {
+        max-width: 700px;
+        width: 100%;
+    }
+    .CaseS-banner-text-div {
+        margin: 210px 100px 300px 60px;
+    }
+    #CI__Rays__section {
+        padding: 80px 0px 600px 0px;
+        margin: -13px;
+    }
+}
+
+/* IE 11/10 Ends Here */
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */

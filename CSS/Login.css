@@ -1,0 +1,289 @@
+.active .active__underline {
+    border-bottom: 3.50px solid #de3d3b;
+    padding-bottom: 7px;
+}
+
+/* Hero Banner Starts Here */
+
+.Login_Hero_Banner_Section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 650px;
+    grid-template-rows: 650px;
+    grid-column-gap: 0px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.Login_Hero_Banner_Section>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.Login-banner-image-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Login-banner-overlay-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Login-banner-image {
+    display: -ms-grid;
+    display: grid;
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* Bugs */
+
+.Login-banner-text-div {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Login-banner-text-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: -moz-fit-content;
+    max-width: -webkit-fit-content;
+    max-width: fit-content;
+    background-color: #fff;
+    margin: 260px 100px 230px 60px;
+    padding: 40px 130px 40px 60px;
+    z-index: 2;
+    opacity: .95;
+}
+
+@media screen and (max-width: 1080px) {
+    .Login-banner-text-div {
+        margin: 280px 50px 190px 50px;
+    }
+    .Heading .break {
+        content: "";
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .Login-banner-text-div {
+        padding: 70px 120px 70px 30px;
+        margin: 185px 10px 220px 10px;
+    }
+    .Heading br {
+        content: "";
+        display: none;
+    }
+    .Login_Hero_Banner_Section {
+        -ms-grid-rows: 450px;
+        grid-template-rows: 450px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    .Login-banner-text-div {
+        margin: 180px 25px 215px 30px;
+        padding: 70px 85px 70px 20px;
+    }
+}
+
+/* Bugs */
+
+.Full__container__login {
+    padding: 60px 10px 60px 10px;
+}
+
+.Justify__Center__Form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.Full__container__login {
+    margin: auto;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+#Text__for {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.Margin___bottomside {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-family: 'Circular__Medium';
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1C3052;
+}
+
+#Text__for p {
+    font-family: 'Circular__Medium';
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    color: #1C3052;
+}
+
+.btn-primary {
+    background-color: #215EAB;
+    font-family: 'Circular__Medium';
+    font-size: var(--Subpara-Font);
+    letter-spacing: 0.03em;
+    line-height: 1.6195;
+    border-radius: 7px;
+}
+
+.form-control {
+    border: 2px solid #cfd5dca6;
+    border-radius: 7px;
+}
+
+.btn-primary:hover {
+    background-color: #215EAB !important;
+}
+
+.Superb__Nav__links {
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+    background-color: #de3d3b;
+    padding: 0px 0px 30px 0px;
+    color: white;
+    top: 85px !important;
+}
+
+@media screen and (max-width: 1080px) {
+    .Superb__Nav__links {
+        top: 60px !important;
+    }
+}
+
+.Superb__Nav__links a {
+    line-height: 3.50 !important;
+    font-size: var(--Subpara-Font);
+    padding: 0px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+.underline__active__uul::before {
+    content: "";
+    display: block;
+    background-color: white;
+    line-height: 40px !important;
+}
+
+.Superb__Nav__links li a {
+    color: white;
+    font-family: 'Circular__Medium';
+    letter-spacing: 0.03em;
+}
+
+.Superb__Nav__links li a:hover {
+    color: white;
+}
+
+.Underline__active:hover .Superb__Nav__links {
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    -webkit-transform: rotate(-360deg) scale(0.23);
+    -webkit-transform: rotate(-360deg) scale(0.23);
+    -ms-transform: rotate(-360deg) scale(0.23);
+    transform: rotate(-360deg) scale(0.23);
+}
+
+.Heading .Break__Mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Superb__Nav__links {
+        /* height: 255px; */
+        /* updated Code */
+        height: 200px;
+    }
+    .Superb__Nav__links {
+        max-width: 300px;
+        width: 100%;
+    }
+    .Superb__Nav__links a {
+        padding: 0px 10px 0px 27px;
+        color: #1C3052 !important;
+    }
+    .Superb__Nav__links {
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .Heading .Break__Mobile {
+        display: block;
+    }
+}
+
+.Social_wrapper {
+    padding: 0px 10px 0px 35px;
+}
+
+@media screen and (max-width: 1080px) {
+    .Social_wrapper {
+        padding: 0px 10px 0px 0px;
+    }
+}
+
+/* *****************************************************Internet Explorer Starts here**************************************************************************************** */
+
+/* IE 11/10 Starts Here */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    body {
+        -ms-overflow-style: none;
+    }
+    .Login_Hero_Banner_Section {
+        display: -ms-inline-grid;
+        -ms-grid-columns: 1fr;
+        -ms-grid-rows: 700px;
+    }
+    .Login-banner-text-div {
+        max-width: 700px;
+        width: 100%;
+    }
+}
+
+/* IE 11/10 Ends Here */
+
+/* *****************************************************Internet Explorer Ends here**************************************************************************************** */

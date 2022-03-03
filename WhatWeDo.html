@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+
+    <!-- IE -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <link rel="stylesheet" href="CSS/ServiceRes.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+
+    <!-- About us CSS -->
+    <link rel="stylesheet" href="./CSS/About.css">
+
+    <!-- What we do css -->
+    <link rel="stylesheet" href="./CSS/WWD.css">
+    <!-- font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="Assets/Logo/QES_FavIcon.svg" type="image/x-icon">
+    <title>QES - What We Do</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="container wrapper">
+        <div id="logo" style="display: inline;"><img id="QES__Logo" width="300" src="./Assets/Logo/QES_Logo.svg"
+                alt="QES_Logo" onclick="imageClick('index.html')">
+            <label id="Label__float" for="drop" class="toggle"><img id="Nav__Logo" src="./Assets/Icons/menu.png"
+                    style="width: 35px;" alt="Menu Icon"></label>
+        </div>
+
+        <input type="checkbox" class="checkBox__Main" id="drop" />
+        <ul class="menu">
+            <li><a class="undered" href="Aboutus.html">About Us</a>
+            </li>
+            <!-- what we do -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle"><span onclick="imageClick('WhatWeDo.html')">What
+                        We
+                        Do</span><span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="WhatWeDo.html"><span class="active__underline">What We
+                        Do<span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a></span>
+                <input type="checkbox" class="checkBox" id="drop-1" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAR.html">EDGAR Services</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Typeset&Design.html">Typeset & Design</a>
+                    </li>
+                    <li><a class="ul__list__only" href="iXBRL-XBRL.html">iXBRL/XBRL</a></li>
+                    <li><a class="ul__list__only" href="FinancialPrinting&Mailing.html">Financial Printing & Mailing</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- what we do -->
+            <!-- Our Clients -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle"><span onclick="imageClick('OurClients.html')">Our
+                        Clients</span><span><img src="./Assets/Icons/chevron-down.svg"
+                            alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="OurClients.html">Our Clients<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-2" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="CorporateIssuers.html">Corporate Issuers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Fund&AssetManagers.html">Fund & Asset Managers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="AssetBackedSecurities.html">Asset Backed Securities</a></li>
+                    <li><a class="ul__list__only" href="StructuredProducts.html">Structured Products</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- Our Clients -->
+            <li><a class="undered" href="News&Resources.html">News & Resources</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle"><span
+                        onclick="imageClick('EDGAREdgeLogin.html')">Login</span><span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="EDGAREdgeLogin.html">Login<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-3" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAREdge.html">EDGAR Edge</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Section16.html">Section 16</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Form13F.html">Form 13F</a></li>
+                    <li><a class="ul__list__only" href="N-Port-N-Cen.html">N-Port/N-Cen</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Schedule13G.html">Schedule 13G</a>
+                    </li>
+                    <li><a class="ul__list__only" href="LiquidityCompliance.html">Liquidity
+                            Compliance</a></li>
+                    <li><a class="ul__list__only" href="AutomatedConversionTools.html">Automated
+                            Conversion</a></li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <li><a class="undered" href="tel:+212-631-7521"><span><img id="Unique__Ion"
+                            src="./Assets/Icons/Phone_Icon.svg" alt="Phone-Icon"></span>
+                    212-631-7521</a>
+            </li>
+            <li id="unique__lis"><a href="Contactus.html" class="Slide__left"
+                    style="background-color: #de3d3b;color: white;" id="Block"><span class="dark">Contact</span> <br>
+                    <span style="margin: 0% 26%;"><img id="Unique__Ion" class="IE__10"
+                            src="Assets/Icons/arrow-right  white-01-01.svg" style="width: 20px;" alt=""></span></a></li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+
+    <!-- Hero Banner -->
+    <section class="About_Hero_Banner_Section">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="About_banner-image-div ">
+            <img class="About_banner_image" src="Assets/Compressed Images/WWD (1).jpg" alt="Qes__HeroBanner" />
+        </div>
+        <div class="About_banner_overlay_div"></div>
+        <div class="About_banner_text_div">
+            <span class="banner-text">
+                <h1 class="About__Heading">Delivering Faster, Easier SEC <br> Compliance at a Reasonable Cost </h1>
+                <p class="About__Para">We are a leader in providing financial reporting, filing and printing. <br> Our
+                    knowledgeable team has developed a broad range of custom technology tools <br> and services to help
+                    clients achieve transparency and benefit from automated, <br> cost-effective data management and
+                    disclosure solutions.
+                </p>
+            </span>
+        </div>
+    </section>
+    <!-- Hero Banner Ends Here -->
+
+
+    <!-- 1 of 2 column OR right__side 2 row four column starts here -->
+    <section class="container Unique__layout__container">
+        <div class='QES__Unique__layout__contain'>
+            <div class='QES__Unique__layout__full_row'>
+                <div class='QES__Unique__layout__col'>
+                    <div class='QES__Unique__leftCol'>
+                        <p class="QES__uniqueLsubPara">SERVICES BY CLIENT</p>
+                        <h3 class="QES__UniqueLH3">Serving Clients Across <br> the Investment Industry</h3>
+                        <p class="QES__UniqueLpara">Our highly experienced team creates <br> custom solutions for
+                            financial and <br> regulatory
+                            compliance
+                            across a broad <br> range of registered investment firms <br> and companies.</p>
+                    </div>
+                </div>
+                <div class='QES__Unique__layout__col'>
+                    <div class='QES__Unique__rightCol'>
+                        <!-- 1st row -->
+                        <div class='QES__right__side2row'>
+                            <div class='QES__right__sidecol'>
+                                <div class='QES__right__sideleftcol'>
+                                    <!-- xx -->
+                                    <a href="CorporateIssuers.html">
+                                        <div class="container__fade">
+                                            <div class="tile content_fi">
+                                                <div class="post">
+                                                    <div class="circle blue">
+                                                        <div class="aligner">
+                                                            <p>Corporate <br> Issuers &nbsp; <br> <span
+                                                                    class="Hide__hove"><img
+                                                                        src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                        class="IE__14" style="width: 20px;"
+                                                                        alt=""></span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="overlay__first">
+                                                    <div class="content__details">
+                                                        <h3>Corporate <br> Issuers &nbsp; </h3>
+                                                        <p>Public companies whose mandated filings are covered by the
+                                                            1933
+                                                            and 1934 acts.</p>
+                                                        <p><span><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                    style="width: 20px;" alt=""></span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                </div>
+                            </div>
+                            <div class='QES__right__sidecol'>
+                                <div class='QES__right__siderightcol'>
+                                    <!-- xx -->
+                                    <a href="Fund&AssetManagers.html">
+                                        <div class="container__fade">
+                                            <div class="tile content_fi">
+                                                <div class="post">
+                                                    <div class="circle red">
+                                                        <div class="aligner">
+                                                            <p>Fund & Assets <br> Managers <br> <span
+                                                                    class="Hide__hove"><img
+                                                                        src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                        class="IE__14" style="width: 20px;"
+                                                                        alt=""></span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="overlay__next">
+                                                    <div class="content__details">
+                                                        <h3>Fund & Assets <br> Managers </h3>
+                                                        <p>Firms whose mandated filings are covered by the 1940 act.</p>
+                                                        <p><span><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                    style="width: 20px;" alt=""></span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 1st row ends here -->
+                        <!-- 1st row -->
+                        <div class='QES__right__side2row'>
+                            <div class='QES__right__sidecol'>
+                                <div class='QES__right__sideleftcol'>
+                                    <!-- xx -->
+                                    <a href="AssetBackedSecurities.html">
+                                        <div class="container__fade">
+                                            <div class="tile content_fi">
+                                                <div class="post">
+                                                    <div class="circle dark__blue">
+                                                        <div class="aligner">
+                                                            <p>Asset Backed <br> Securities &nbsp; <br> <span
+                                                                    class="Hide__hove"><img
+                                                                        src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                        class="IE__14" style="width: 20px;"
+                                                                        alt=""></span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="overlay__next1">
+                                                    <div class="content__details">
+                                                        <h3>Asset Backed <br> Securities </h3>
+                                                        <p>Issuers of any asset-backed securities that must meet SEC
+                                                            requirements.</p>
+                                                        <p><span><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                    style="width: 20px;" alt=""></span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                </div>
+                            </div>
+                            <div class='QES__right__sidecol'>
+                                <div class='QES__right__siderightcol'>
+                                    <!-- xx -->
+                                    <a href="StructuredProducts.html">
+                                        <div class="container__fade">
+                                            <div class="tile content_fi">
+                                                <div class="post">
+                                                    <div class="circle blue__light">
+                                                        <div class="aligner">
+                                                            <p>Structured <br> Products <br> <span
+                                                                    class="Hide__hove"><img
+                                                                        src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                        class="IE__14" style="width: 20px;"
+                                                                        alt=""></span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="overlay__next2">
+                                                    <div class="content__details">
+                                                        <h3>Structured <br> Products </h3>
+                                                        <p>Issuers of these customized products tied to an index or
+                                                            basket
+                                                            of securities.</p>
+                                                        <p><span><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                                                    style="width: 20px;" alt=""></span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 1st row ends here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 1 of 2 column OR right__side 2 row four column ends here -->
+
+
+    <!-- Only Text In what we do section starts here -->
+    <section id="Only__Text__WDD"
+        style="background-image: url('./Assets/Bg Images/gears.png');width: 100%;background-size: cover;">
+        <div class="container Only___Text__WWD__contain">
+            <p>TECHNOLOGY</p>
+            <h3>Delivering a Broad Range of Integrated <br> Technology Capabilities</h3>
+            <p>Our leading-edge technology tools, developed by our regulatory and compliance experts, <br> streamline
+                the
+                filing and reporting process. Our custom solutions ensure data integrity and <br> compliance.</p>
+        </div>
+        <!-- Grid Layout Starts here -->
+        <div class="Only___Text__WWD__contain__S">
+            <div class="container Grid__Layout__Inwdd">
+                <div class="Grid__Main__services__QES IE__grid__row">
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="EDGAREdge.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">EdgarEdge</span></p>
+                                <p class="QES__WDD__ServPar">A secure portal that lets clients edit their <br>
+                                    documents in
+                                    a user-friendly environment. <br>
+                                    Built for deadline-driven proxies, mergers <br> and registration statements.
+                                </p>
+                                <span class="Img__over1"><img src="./Assets/Icons/arrow-right red-01.svg"
+                                        style="width: 20px;float: right;" alt=""></span>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="SingleSource.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">SingleSource</span></p>
+                                <p class="QES__WDD__ServPar">Takes typeset files and outputs them to EDGAR-compliant
+                                    HTML,
+                                    ensuring data integrity through the document lifecycle. <br> Our system replicates
+                                    and
+                                    maintains <br> precise formatting on even highly <br> stylized typeset documents.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="Microsites&E-Delivery.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Microsites & E-Delivery</span></p>
+                                <p class="QES__WDD__ServPar">Designed for web-hosting of client <br> documents with
+                                    e-delivery
+                                    options that <br> direct shareholders to sites that can be customized and branded.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="Section16.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Section 16</span></p>
+                                <p class="QES__WDD__ServPar">Efficient ownership filings for insiders, <br> including
+                                    officers,
+                                    directors and <br> stockholders.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="Form13F.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Form 13F</span></p>
+                                <p class="QES__WDD__ServPar">Fast, accurate quarterly holdings report <br> filing for
+                                    institutional investment <br> managers.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="N-Port-N-Cen.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">N-Port/N-Cen</span></p>
+                                <p class="QES__WDD__ServPar">Monthly portfolio reports and annual <br> fund reports in
+                                    an
+                                    XML
+                                    format, <br> produced using a flexible and efficient <br> cloud based system.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="N-Powersystem.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">N-Power Systems</span></p>
+                                <p class="QES__WDD__ServPar">A custom application installed on client premise that lets
+                                    clients directly manage <br> high-volume filings (specifically XML) <br> like
+                                    N-PORT,
+                                    N-CEN, and
+                                    13F forms <br> without data leaving their own secure environment until filing.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="Schedule13G.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Schedule 13G</span></p>
+                                <p class="QES__WDD__ServPar">Streamlined filing for equity holders <br> that exceed 5%
+                                    of
+                                    the
+                                    company’s total <br> stock issue.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="LiquidityCompliance.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Liquidity Compliance</span></p>
+                                <p class="QES__WDD__ServPar">A comprehensive tool that lets 40 Act <br> Funds meet SEC
+                                    liquidity
+                                    regulatory requirements.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="AutomatedConversionTools.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Automated Conversion Tool</span></p>
+                                <p class="QES__WDD__ServPar">Ideal for high volume filers like structured products or
+                                    ‘40
+                                    Act fund complex <br> documents, this tool automates EDGAR compliant output of even
+                                    highly
+                                    stylized <br> forms.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID IE__grid__col">
+                        <!-- xx -->
+                        <a href="OwnershipFilings.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">ABS 15G System</span></p>
+                                <p class="QES__WDD__ServPar">Built to manage large ABS filings, this <br> tool converts
+                                    massive
+                                    Excel reports into <br>
+                                    Edgar-compliant HTML output while <br> ensuring data integrity with the source <br>
+                                    file.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie__icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!-- Grid Layout Ends here -->
+    </section>
+    <!-- only Text In what we do section ends here -->
+
+    <!-- Only Text In what we do section starts here -->
+    <section id="Only__Text__WDD1"
+        style="background-image: url('./Assets/Bg Images/imgonline-com-ua-Piconpic-1cjOla0XlCT6mBVP.jpg');width: 100%;background-size: cover;">
+        <div class="container Only___Text__WWD__contain">
+            <p>SERVICES</p>
+            <h3>Meeting All Your Filing and Printing Needs</h3>
+            <p>We offer a complete range of cost-effective EDGAR and iXBRL filing, typesetting <br> and printing in all
+                applicable SEC formats.</p>
+        </div>
+        <!-- Grid Layout Starts here -->
+        <div class="Only___Text__WWD__contain__S">
+            <div class="container Grid__Layout__Inwdd">
+                <div class="Grid__Main__services__QESs IE__grid__row">
+                    <article class="QES__WDD__Services__InsideGRID Min__height__grid IE__grid__cols">
+                        <!-- xx -->
+                        <a href="EDGAR.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">EDGAR</span></p>
+                                <p class="QES__WDD__ServPar">Providing fast, high-quality, <br> SEC compliant document
+                                    conversion
+                                    and filing solutions 24/7.
+                                </p>
+                                <span class="Img__over1"><img src="./Assets/Icons/arrow-right red-01.svg"
+                                        style="width: 20px;float: right;" alt=""></span>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie_icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID Min__height__grid IE__grid__cols">
+                        <!-- xx -->
+                        <a href="Typeset&Design.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Typeset & Design</span></p>
+                                <p class="QES__WDD__ServPar">Leveraging our composition <br> and design team, we quickly
+                                    <br> and
+                                    accurately produce <br> financial documents, reporting <br> and publications.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie_icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID Min__height__grid IE__grid__cols">
+                        <!-- xx -->
+                        <a href="iXBRL-XBRL.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">iXBRL/XBRL</span></p>
+                                <p class="QES__WDD__ServPar">Delivering accurate XBRL <br> tagging and filing supported
+                                    by
+                                    <br> an
+                                    expert team of accountants, <br> CPAs and regulatory <br> compliance specialists. We
+                                    <br> support the
+                                    full range of iXBRL/ <br> XBRL forms including Risk/ <br> Return, 8-Ks, 10-Q/10-K
+                                    filings. <br> And
+                                    transactional registration <br> statements.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie_icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                    <article class="QES__WDD__Services__InsideGRID Min__height__grid IE__grid__cols">
+                        <!-- xx -->
+                        <a href="FinancialPrinting&Mailing.html">
+                            <div class="post">
+                                <p><span class="QES__Underline__text">Financial Printing & Mailing</span></p>
+                                <p class="QES__WDD__ServPar">Offering a state-of-the-art <br> source for cost-effective
+                                    large- <br> scale and short-run printing, <br> mailing and fulfillment of all <br>
+                                    your
+                                    financial
+                                    documents.
+                                </p>
+                                <div class="Img__over">
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                                <div class="Arrow__hoverable">
+                                    <span class="Ie_icon"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                            style="width: 20px;" alt=""></span>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- xx -->
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!-- Grid Layout Ends here -->
+    </section>
+    <!-- only Text In what we do section ends here -->
+
+    <!-- Footer Starts Here -->
+    <div class="Footer__showcase1">
+        <img id="Imgs" src="./Assets/QES__Video/ezgif.com-gif-maker-min.gif" alt="Gif">
+        <div class="overlay">
+            <h2 class="centerized">Get Started with a Trusted SEC Compliance Expert</h2>
+            <p class="centerized" id="uniags">
+                Contact us to find out what we can do for you or to schedule a demo.
+            </p>
+            <div class="fines" id="Upper__QES">
+                <a href="Contactus.html">
+                    <p id="Hover"><span id="spans"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                style="width: 20px;" alt=""></span><button style="color: white;" class="btns">Learn
+                            More</button>
+                    </p>
+                </a>
+            </div>
+            <div class="line__full">
+                <hr id="size">
+            </div>
+            <div class="container Footer__Contained">
+                <div class='Footer__Row'>
+                    <div class='Footer__Dbcol'>
+                        <div class='Footer__Leftcol'>
+                            <p class="footer_para">&copy; Quality EDGAR Solutions, LLC , All Rights Reserved.</p>
+                            <p class="footer_para">EDGAR is a registered trademark of the U.S Securities and Exchange
+                                Commission.</p>
+                        </div>
+                    </div>
+                    <div class='Footer__Column'>
+                        <!-- social Icons -->
+                        <div class="Social_wrapper" style="display: flex;">
+                            <p id="nishyg" style="transform: translate(10px, 20px);">Privacy & Cookie Policy</p>
+                            <div class="Icon__Wrapper" style="display: flex;flex-direction: row-reverse;">
+                                <a href="https://www.linkedin.com/company/quality-edgar-solutions/"
+                                    class="icon-button twitter"><img src="./Assets/Icons/LinkedIn_Icon.svg"
+                                        alt="QES__LinkedIn_Icon"><span></span></a>
+                                <a href="https://twitter.com/qualityedgar?lang=en" class="icon-button facebook"><img
+                                        src="./Assets/Icons/Twitter_Icon.svg" alt="QES__Twitter_Icon"><span></span></a>
+                            </div>
+                        </div>
+                        <!-- social Icon Ends Here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.nest/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Jquery Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="JS/index.js"></script>
+
+
+    <script type="text/javascript">
+        const currentLocation = location.href;
+        const menuItem = document.getElementsByClassName('undered');
+        const menuLength = menuItem.length
+        for (let i = 0; i < menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox__Main').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+</body>
+
+</html>

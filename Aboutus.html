@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+
+    <!-- About us CSS -->
+    <link rel="stylesheet" href="./CSS/About.css">
+
+    <!-- font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Owl carousel Styling & JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="Assets/Logo/QES_FavIcon.svg" type="image/x-icon">
+    <title>QES - About us</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="container wrapper">
+        <div id="logo" style="display: inline;"><img id="QES__Logo" width="300" src="./Assets/Logo/QES_Logo.svg"
+                alt="QES_Logo" onclick="imageClick('index.html')">
+            <label id="Label__float" for="drop" class="toggle"><img id="Nav__Logo" src="./Assets/Icons/menu.png"
+                    style="width: 35px;" alt="Menu Icon"></label>
+        </div>
+
+        <input type="checkbox" class="checkBox__Main" id="drop" />
+        <ul class="menu">
+            <li><a class="undered" href="Aboutus.html">About Us</a>
+            </li>
+            <!-- what we do -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle"><span onclick="imageClick('WhatWeDo.html')">What
+                        We
+                        Do</span><span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="WhatWeDo.html"><span class="active__underline">What We
+                        Do<span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a></span>
+                <input type="checkbox" class="checkBox" id="drop-1" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAR.html">EDGAR Services</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Typeset&Design.html">Typeset & Design</a>
+                    </li>
+                    <li><a class="ul__list__only" href="iXBRL-XBRL.html">iXBRL/XBRL</a></li>
+                    <li><a class="ul__list__only" href="FinancialPrinting&Mailing.html">Financial Printing & Mailing</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- what we do -->
+            <!-- Our Clients -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle"><span onclick="imageClick('OurClients.html')">Our
+                        Clients</span><span><img src="./Assets/Icons/chevron-down.svg"
+                            alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="OurClients.html">Our Clients<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-2" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="CorporateIssuers.html">Corporate Issuers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Fund&AssetManagers.html">Fund & Asset Managers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="AssetBackedSecurities.html">Asset Backed Securities</a></li>
+                    <li><a class="ul__list__only" href="StructuredProducts.html">Structured Products</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- Our Clients -->
+            <li><a class="undered" href="News&Resources.html">News & Resources</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle"><span
+                        onclick="imageClick('EDGAREdgeLogin.html')">Login</span><span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="EDGAREdgeLogin.html">Login<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-3" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAREdge.html">EDGAR Edge</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Section16.html">Section 16</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Form13F.html">Form 13F</a></li>
+                    <li><a class="ul__list__only" href="N-Port-N-Cen.html">N-Port/N-Cen</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Schedule13G.html">Schedule 13G</a>
+                    </li>
+                    <li><a class="ul__list__only" href="LiquidityCompliance.html">Liquidity
+                            Compliance</a></li>
+                    <li><a class="ul__list__only" href="AutomatedConversionTools.html">Automated
+                            Conversion</a></li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <li><a class="undered" href="tel:+212-631-7521"><span><img id="Unique__Ion"
+                            src="./Assets/Icons/Phone_Icon.svg" alt="Phone-Icon"></span>
+                    212-631-7521</a>
+            </li>
+            <li id="unique__lis"><a href="Contactus.html" class="Slide__left"
+                    style="background-color: #de3d3b;color: white;" id="Block"><span class="dark">Contact</span> <br>
+                    <span style="margin: 0% 26%;"><img id="Unique__Ion" class="IE__10"
+                            src="Assets/Icons/arrow-right  white-01-01.svg" style="width: 20px;" alt=""></span></a></li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+    <!-- Hero Banner -->
+    <section class="About_Hero_Banner_Section">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="About_banner-image-div ">
+            <img class="About_banner_image" src="Assets/Compressed Images/About us.jpg" alt="Qes__HeroBanner" />
+        </div>
+        <div class="About_banner_overlay_div"></div>
+        <div class="About_banner_text_div">
+            <span class="banner-text">
+                <h1 class="About__Heading">SEC Filing Experts Who Deliver <br> High Quality at Low Cost</h1>
+                <p class="About__Para">QES was founded in 2007 to meet the need for smarter regulatory filing and <br>
+                    has deep
+                    experience and expertise in the full range of SEC filings. Our <br> proprietary technology makes the
+                    process of regulatory reporting easier, <br> faster and more economical.
+                </p>
+            </span>
+        </div>
+    </section>
+    <!-- Hero Banner Ends Here -->
+
+
+    <!-- Full__Width container Starts here -->
+    <section id="QES_About_section">
+        <div class="container AboutQES__Container">
+            <p class="QES__subpara__text">SPEED ACCURACY & RESULTS</p>
+            <h3 class="QES__H3__text">Fast, Error-free Compliance</h3>
+            <p class="QES__Para__text">Our clients have high expectations: they want us to handle their filing
+                requirements quickly and produce
+                <br>
+                documents that are clear, easy to read and 100-percent compliant. We meet and exceed those <br>
+                expectations,
+                all at a price that is typically 30-40 percent less than our competitors with no loss of quality.
+            </p>
+        </div>
+    </section>
+    <!-- Full_width container ends here -->
+
+    <!-- Image Text Container starts here -->
+    <section id="QES__Image_side_text">
+        <div class="container QES__imageSide__contain">
+            <div class='QES__Image__side__text__row'>
+                <div class='small__aside__col'>
+                    <div class="Image__inside__box">
+                        <img src="./Assets/Bg Images/About Us 1.png" id="none__About1" alt="">
+                        <img src="./Assets/Bg Images/Mobile Screen.png" id="None__About" alt="">
+                    </div>
+                </div>
+                <div class='QES__Image_sidedbcol'>
+                    <div class='Right__side__imageSidecol'>
+                        <p class="QES__subpara__text">WHITE GLOVE SERVICE</p>
+                        <h3 class="QES__H3__text">
+                            Meeting Your Unique Needs <br> with Our White-Glove Service
+                        </h3>
+                        <p class="QES__Para__text">Customized service is at the heart of our promise to clients. We are
+                            <br>
+                            leaders in the industry, ensuring that you stay ahead of changing <br> reporting
+                            requirements and
+                            tight deadlines. Our attention to detail and <br> our commitment to quality translate into a
+                            better customer experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Image Text container ends here -->
+
+
+    <!-- Rays Container OR Section -->
+    <section id="Ry__contain__QES">
+        <div class="Rays__QES__div container">
+            <div class="container Text__inside__Ry">
+                <p class="Ry__isideQES__subpara__text">CASE STUDIES</p>
+                <h3 class="Ry__isideQES__H3__text">Driving Success for Clients</h3>
+                <p class="Ry__isideQES__Para__text">We have a proven track record of producing excellent <br> results
+                    for clients,
+                    including some of the top
+                    names in <br> the financial services industry. </p>
+            </div>
+            <!-- Div with floating right one div starts here  -->
+            <div class='container'>
+                <div class='QES__div__float__row'>
+                    <div class='QES__div__float__col'>
+                        <div class='QES__leftcol__rightS'>
+                            <a href="CaseStudy.html" style="text-decoration: none;">
+                                <div class="Column___right__div">
+                                    <p class="Float__text__inside">From One Hour to Three <br> Minutes: Dramatically
+                                        <br>
+                                        Accelerating N-PORT Filing
+                                    </p>
+                                    <span><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                            alt=""></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class='QES__div__float__col'>
+                        <div class='QES__rightcol'>
+                            <!-- Two div inside 1 div starts here -->
+                            <div class='Two__divIside__contain'>
+                                <div class='Two__divIside__row'>
+                                    <div class='Two__divIside__col'>
+                                        <div class='full__dive__left'>
+                                            <a href="CaseStudy2.html" style="text-decoration: none;">
+                                                <div class="column__side__div">
+                                                    <p class="Float__text__inside">Securities Filing Costs <br> Reduced
+                                                        by
+                                                        Half
+                                                    </p>
+                                                    <span><img src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;" alt=""></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class='Two__divIside__col'>
+                                        <div class='full__dive__right'>
+                                            <a href="CaseStudy3.html" style="text-decoration: none;">
+                                                <div class="column__side__div2">
+                                                    <p class="Float__text__inside">Give Your SEC Filings More Impact by
+                                                        Retaining Design and Format
+                                                    </p>
+                                                    <span><img src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;" alt=""></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Two div inside 1 div ends here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Div with floating right one div ends here -->
+        </div>
+    </section>
+    <!-- Rays Container OR Section Ends here -->
+
+
+    <!-- OnlY__Text__InQES starts here -->
+    <section id="OnlY__InQES__txet">
+        <div class="container">
+            <div class="Inside__QES__Text_">
+                <p class="Mt__Text">MANAGEMENT TEAM</p>
+                <h3 class="Mt__h3tExt">Putting Our Experience to Work for You</h3>
+                <p class="Mt__tExt">Our team combines a forward-looking approach with deep industry experience in all
+                    aspects <br> of the
+                    SEC
+                    filing process. Our EDGAR filing experts each have more than a decade of experience.
+                </p>
+            </div>
+            <!-- Four div in one row starts here -->
+
+            <!-- xx -->
+            <div class='some-page-wrapper'>
+                <div class='QES__Rows__Ffour' id="Uniquene__row__InFf">
+                    <div class='QES__Column__Ffour'>
+                        <!-- xx -->
+                        <div class='QES__Rows__Ffour'>
+                            <div class='QES__Column__Ffour'>
+                                <div class='QES__LeftCol__Ffour'>
+                                    <div class="QES__Image__Ffour__left">
+                                        <a href="ManagementTeam-DavidRosenfeld.html"><img
+                                                src="./Assets/Bg Images/David Rosenfeld.PNG" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='QES__Column__Ffour'>
+                                <div class='QES__RightCol__Ffour'>
+                                    <div class="Text__QES__Ffour">
+                                        <a href="ManagementTeam-DavidRosenfeld.html">
+                                            <p class="QES__Mt__Texthi">David Rosenfeld</p>
+                                        </a>
+                                        <p class="QES__Mt__sPara">Owner and Director of Operations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- xx -->
+                    </div>
+                    <div class='QES__Column__Ffour'>
+                        <!-- xx -->
+                        <div class='QES__Rows__Ffour'>
+                            <div class='QES__Column__Ffour'>
+                                <div class='QES__LeftCol__Ffour'>
+                                    <div class="QES__Image__Ffour__left">
+                                        <a href="ManagementTeam-RichardSamlin.html"><img
+                                                src="./Assets/Bg Images/Richard Samlin.PNG" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='QES__Column__Ffour'>
+                                <div class='QES__RightCol__Ffour'>
+                                    <div class="Text__QES__Ffour">
+                                        <a href="ManagementTeam-RichardSamlin.html">
+                                            <p class="QES__Mt__Texthi">Richard Samlin</p>
+                                        </a>
+                                        <p class="QES__Mt__sPara1">Owner and Director of Business <br> Development</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- xx -->
+                    </div>
+                </div>
+            </div>
+            <!-- xx -->
+            <!-- Four div in one row ends here -->
+        </div>
+    </section>
+    <!-- OnlY__Text__InQES ends here -->
+
+
+    <!-- owl-Carousel Starts here -->
+    <section id="Owl__carousel__section">
+        <div class="container row__side">
+            <div class="Text__Inside__carousel">
+                <p>HISTORY</p>
+                <h3>Constantly Evolving to Stay Ahead <br> in A Fast-changing Industry</h3>
+                <p>The SEC filing process doesn’t stand still. Regulations change and so do the demands on <br> filers.
+                    Throughout our history, we have stayed at the cutting edge, adding the tools and talent <br> to keep
+                    our
+                    clients abreast of the latest developments.
+                </p>
+            </div>
+            <div class="container owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2007.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2009.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2011.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2012.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2015.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2016.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2017.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2019.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./Assets/Timeline/Timeline 2020.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- owl-Carousel Ends here -->
+
+    <!-- 1 of 2 column starts here -->
+    <section>
+        <div class="container Careers__page__container">
+            <div class='Careers__page__row'>
+                <div class='Careers__page__col'>
+                    <div class='CareersPage__leftCol'>
+                        <div class="Careers__Imgside">
+                            <img src="./Assets/Compressed Images/Careers.png" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class='Careers__page__col'>
+                    <div class='CareersPage__rightCol'>
+                        <div class="Careers__side_text">
+                            <p>CAREERS</p>
+                            <h3>We’re Looking for Innovators</h3>
+                            <p>We are disruptors in a traditional industry and are looking for people excited by the
+                                prospect of creating new solutions in a fast-growing company. Join us and help create
+                                what’s next.</p>
+                            <div class="Button__Aside__SS">
+                                <p id="Hover"><span id="span"><img src="./Assets/Icons/arrow-right red-01.svg"
+                                            style="width: 20px;" alt=""></span><a href=""><button class="btns">Current
+                                            Job Listings</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 1 of 2 column ends here -->
+
+
+    <!-- Footer Starts Here -->
+    <div class="Footer__showcase">
+        <img id="Imgs" src="./Assets/QES__Video/ezgif.com-gif-maker-min.gif" alt="Gif">
+        <div class="overlay">
+            <h2 class="centerized">Get Started with a Trusted SEC Compliance Expert</h2>
+            <p class="centerized" id="uniags">
+                Contact us to find out what we can do for you or to schedule a demo.
+            </p>
+            <div class="fines" id="Upper__QES">
+                <a href="Contactus.html">
+                    <p id="Hover"><span id="spans"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                style="width: 20px;" alt=""></span><button style="color: white;" class="btns">Learn
+                            More</button>
+                    </p>
+                </a>
+            </div>
+            <div class="line__full">
+                <hr id="size">
+            </div>
+            <div class="container Footer__Contained">
+                <div class='Footer__Row'>
+                    <div class='Footer__Dbcol'>
+                        <div class='Footer__Leftcol'>
+                            <p class="footer_para">&copy; Quality EDGAR Solutions, LLC , All Rights Reserved.</p>
+                            <p class="footer_para">EDGAR is a registered trademark of the U.S Securities and Exchange
+                                Commission.</p>
+                        </div>
+                    </div>
+                    <div class='Footer__Column'>
+                        <!-- social Icons -->
+                        <div class="Social_wrapper" style="display: flex;">
+                            <p id="nishyg" style="transform: translate(10px, 20px);">Privacy & Cookie Policy</p>
+                            <div class="Icon__Wrapper" style="display: flex;flex-direction: row-reverse;">
+                                <a href="https://www.linkedin.com/company/quality-edgar-solutions/"
+                                    class="icon-button twitter"><img src="./Assets/Icons/LinkedIn_Icon.svg"
+                                        alt="QES__LinkedIn_Icon"><span></span></a>
+                                <a href="https://twitter.com/qualityedgar?lang=en" class="icon-button facebook"><img
+                                        src="./Assets/Icons/Twitter_Icon.svg" alt="QES__Twitter_Icon"><span></span></a>
+                            </div>
+                        </div>
+                        <!-- social Icon Ends Here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.nest/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <script src="./JS/index.js"></script>
+
+    <!-- Jquery Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- OWL Carousel CDN link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- OWL CAROUSEL LINK -->
+    <script>
+        // OWL CAROUSEL STARTS HERE
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                margin: 0,
+                nav: true,
+                dots: false,
+                loop: false,
+                navText: ['<span class="Icon__InCarousel"><img src="./Assets/Icons/arrow-right.png" style="width: 20px;" alt=""></span>', '<span class="Icon__InCarousel"><img src="./Assets/Icons/arrow-right.svg" style="width: 20px;" alt=""></span>'],
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+        })
+       // OWL CAROUSEL ENDS HERE
+    </script>
+
+    <script type="text/javascript">
+        const currentLocation = location.href;
+        const menuItem = document.getElementsByClassName('undered');
+        const menuLength = menuItem.length
+        for (let i = 0; i < menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox__Main').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+</body>
+
+</html>

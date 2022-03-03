@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+    <link rel="stylesheet" href="./CSS/ServiceRes.css">
+
+    <link rel="stylesheet" href="./CSS/WWD.css">
+
+    <link rel="stylesheet" href="./CSS/Resources.css">
+
+    <!-- font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="Assets/Logo/QES_FavIcon.svg" type="image/x-icon">
+    <title>QES - Proxy Form</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="container wrapper">
+        <div id="logo" style="display: inline;"><img id="QES__Logo" width="300" src="./Assets/Logo/QES_Logo.svg"
+                alt="QES_Logo" onclick="imageClick('index.html')">
+            <label id="Label__float" for="drop" class="toggle"><img id="Nav__Logo" src="./Assets/Icons/menu.png"
+                    style="width: 35px;" alt="Menu Icon"></label>
+        </div>
+
+        <input type="checkbox" class="checkBox__Main" id="drop" />
+        <ul class="menu">
+            <li><a class="undered" href="Aboutus.html">About Us</a>
+            </li>
+            <!-- what we do -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle"><span onclick="imageClick('WhatWeDo.html')">What
+                        We
+                        Do</span><span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="WhatWeDo.html">What We Do<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-1" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAR.html">EDGAR Services</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Typeset&Design.html">Typeset & Design</a>
+                    </li>
+                    <li><a class="ul__list__only" href="iXBRL-XBRL.html">iXBRL/XBRL</a></li>
+                    <li><a class="ul__list__only" href="FinancialPrinting&Mailing.html">Financial Printing & Mailing</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- what we do -->
+            <!-- Our Clients -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle"><span onclick="imageClick('OurClients.html')">Our
+                        Clients</span><span><img src="./Assets/Icons/chevron-down.svg"
+                            alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="OurClients.html">Our Clients<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-2" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="CorporateIssuers.html">Corporate Issuers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Fund&AssetManagers.html">Fund & Asset Managers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="AssetBackedSecurities.html">Asset Backed Securities</a></li>
+                    <li><a class="ul__list__only" href="StructuredProducts.html">Structured Products</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- Our Clients -->
+            <li><a class="undered" href="News&Resources.html">News & Resources</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle"><span
+                        onclick="imageClick('EDGAREdgeLogin.html')">Login</span><span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="EDGAREdgeLogin.html">Login<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-3" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAREdge.html">EDGAR Edge</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Section16.html">Section 16</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Form13F.html">Form 13F</a></li>
+                    <li><a class="ul__list__only" href="N-Port-N-Cen.html">N-Port/N-Cen</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Schedule13G.html">Schedule 13G</a>
+                    </li>
+                    <li><a class="ul__list__only" href="LiquidityCompliance.html">Liquidity
+                            Compliance</a></li>
+                    <li><a class="ul__list__only" href="AutomatedConversionTools.html">Automated
+                            Conversion</a></li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <li><a class="undered" href="tel:+212-631-7521"><span><img id="Unique__Ion"
+                            src="./Assets/Icons/Phone_Icon.svg" alt="Phone-Icon"></span>
+                    212-631-7521</a>
+            </li>
+            <li id="unique__lis"><a href="Contactus.html" class="Slide__left"
+                    style="background-color: #de3d3b;color: white;" id="Block"><span class="dark">Contact</span> <br>
+                    <span style="margin: 0% 26%;"><img id="Unique__Ion" class="IE__10"
+                            src="Assets/Icons/arrow-right  white-01-01.svg" style="width: 20px;" alt=""></span></a></li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+
+    <!-- Breadcrumb Starts Here -->
+    <div id="Banner__Breadcrumb">
+        <div class="container breadcrumb__inside">
+            <p style="margin-bottom: 0rem;"><span><a href="index.html"><img src="Assets/Icons/House_Icon.png"
+                            alt=""></a></span>
+            </p> <span id="Breadcrum__para_text" style="transform: translate(15px, 2px);"><a href="">QES</a> &nbsp; >
+                &nbsp; <a href="index.html#What_we_Do">News & Resources</a>
+                &nbsp; > &nbsp; <a href="">Proxy Form</a></span>
+        </div>
+    </div>
+    <!-- Breadcrumb Ends Here -->
+    <!-- Hero Banner -->
+    <section class="Resources_Hero_Banner_Section">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="Resources-banner-image-div">
+            <img class="Resources-banner-image" src="./Assets/Compressed Images/GettyImages-1155462919-compressed.jpg"
+                alt="Qes__HeroBanner" />
+        </div>
+        <div class="Resources-banner-overlay-div"></div>
+        <div class="Resources-banner-text-div">
+            <span class="banner-text">
+                <h1 class="Heading">Proxy Form</h1>
+            </span>
+        </div>
+    </section>
+    <!-- Hero Banner Ends Here -->
+
+
+    <!-- Text container starts here -->
+    <section>
+        <div class="container Resources__TextContain">
+            <p>DOCUMENT SEARCH</p>
+            <h3>10K</h3>
+            <p>This information has been compiled from sources believed to be reliable, but cannot be <br> guaranteed
+                for accuracy. Please consult with professional counsel before acting or relying <br> on the information
+                provided.</p>
+        </div>
+    </section>
+    <!-- Text container ends here -->
+
+    <!-- Row__column starts here -->
+    <section id="Box__cont">
+        <div class="container Box__container">
+            <div class='Box__sideRow'>
+                <div class='Right__sideBOXcol'>
+                    <div class='Right__insideCol'>
+                        <p>CATEGORY OF FILLER</p>
+                    </div>
+                </div>
+                <div class='DiffCol'>
+                    <p>FORM 10-K DEADLINE <br> (FROM FISCAL YEAR END DATE)</p>
+                </div>
+            </div>
+            <!-- Another__Row starts here -->
+            <div class='Box__sideRow__Next'>
+                <div class='Right__sideBOXcol__Next'>
+                    <div class='Right__insideCol__Next'>
+                        <p>Large Accelerated Filer ($700MM or more)</p>
+                    </div>
+                </div>
+                <div class='DiffCol__Next'>
+                    <p>60 days</p>
+                </div>
+            </div>
+            <!-- Another__Row ends here -->
+            <!-- Another__Row starts here -->
+            <div class='Box__sideRow__Next'>
+                <div class='Right__sideBOXcol__Next'>
+                    <div class='Right__insideCol__Next'>
+                        <p>Large Accelerated Filer ($75MM or more and less than 700MM)</p>
+                    </div>
+                </div>
+                <div class='DiffCol__Next'>
+                    <p>75 days</p>
+                </div>
+            </div>
+            <!-- Another__Row ends here -->
+            <!-- Another__Row starts here -->
+            <div class='Box__sideRow__Next'>
+                <div class='Right__sideBOXcol__Next'>
+                    <div class='Right__insideCol__Next'>
+                        <p>Non-Accelerated Filer (less than $75MM)</p>
+                    </div>
+                </div>
+                <div class='DiffCol__Next'>
+                    <p>90 days</p>
+                </div>
+            </div>
+            <!-- Another__Row ends here -->
+        </div>
+    </section>
+    <!-- Row__column ends here -->
+
+
+    <!-- Footer above section starts here -->
+    <section>
+        <div class="container FooTer__absection">
+            <p class="Nth__st">Late Filing:</p>
+            <p class="Nth__nd">NT 10-K- Due on Business day following 10-K deadline.</p>
+            <p class="Nth__nd">Late 10-K- After filing a NT 10-K, the deadline for the 10-K is extended 15 calendar
+                days.</p>
+            <div class="udnerine__text">
+                <a style="text-decoration: none;" href="#">
+                    <p><span class="under__linetext">SEC Link for 10-K Timelines for Filing</span></p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer above section ends here -->
+
+    <!-- Footer Starts Here -->
+    <div id="Footer__Container">
+        <footer id="footer">
+            <section
+                style="background-image: url('./Assets/Bg Images/aron-visuals-R49cUgaQ0mk-unsplash.jpg');background-size: cover;width: 100%;">
+                <div class="container Footer__Contained">
+                    <div class='Footer__Row'>
+                        <div class='Footer__Dbcol'>
+                            <div class='Footer__Leftcol'>
+                                <p class="footer_para">&copy; Quality EDGAR Solutions, LLC , All Rights Reserved.
+                                </p>
+                                <p class="footer_para">EDGAR is a registered trademark of the U.S Securities and
+                                    Exchange
+                                    Commission.</p>
+                            </div>
+                        </div>
+                        <div class='Footer__Column'>
+                            <!-- social Icons -->
+                            <div class="Social_wrapper" style="display: flex;">
+                                <p id="nishyg" style="transform: translate(10px, 20px);">Privacy & Cookie Policy</p>
+                                <div class="Icon__Wrapper" style="display: flex;flex-direction: row-reverse;">
+                                    <a href="https://www.linkedin.com/company/quality-edgar-solutions/"
+                                        class="icon-button twitter"><img src="./Assets/Icons/LinkedIn_Icon.svg"
+                                            alt="QES__LinkedIn_Icon"><span></span></a>
+                                    <a href="https://twitter.com/qualityedgar?lang=en" class="icon-button facebook"><img
+                                            src="./Assets/Icons/Twitter_Icon.svg"
+                                            alt="QES__Twitter_Icon"><span></span></a>
+                                </div>
+                            </div>
+                            <!-- social Icon Ends Here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <!-- Footer Ends Here -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.nest/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Jquery Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="JS/index.js"></script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox__Main').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+</body>
+
+</html>

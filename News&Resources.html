@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+    <link rel="stylesheet" href="CSS/ServiceRes.css">
+
+    <link rel="stylesheet" href="./CSS/News&Res.css">
+
+    <link rel="stylesheet" href="./CSS/select.css">
+
+    <!-- RSS FEED -->
+    <script src="https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js"></script>
+    <!-- font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="Assets/Logo/QES_FavIcon.svg" type="image/x-icon">
+    <title>QES - News & Resources</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="container wrapper">
+        <div id="logo" style="display: inline;"><img id="QES__Logo" width="300" src="./Assets/Logo/QES_Logo.svg"
+                alt="QES_Logo" onclick="imageClick('index.html')">
+            <label id="Label__float" for="drop" class="toggle"><img id="Nav__Logo" src="./Assets/Icons/menu.png"
+                    style="width: 35px;" alt="Menu Icon"></label>
+        </div>
+
+        <input type="checkbox" class="checkBox__Main" id="drop" />
+        <ul class="menu">
+            <li><a class="undered" href="Aboutus.html">About Us</a>
+            </li>
+            <!-- what we do -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle"><span onclick="imageClick('WhatWeDo.html')">What
+                        We
+                        Do</span><span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="WhatWeDo.html">What We Do<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-1" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAR.html">EDGAR Services</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Typeset&Design.html">Typeset & Design</a>
+                    </li>
+                    <li><a class="ul__list__only" href="iXBRL-XBRL.html">iXBRL/XBRL</a></li>
+                    <li><a class="ul__list__only" href="FinancialPrinting&Mailing.html">Financial Printing & Mailing</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- what we do -->
+            <!-- Our Clients -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle"><span onclick="imageClick('OurClients.html')">Our
+                        Clients</span><span><img src="./Assets/Icons/chevron-down.svg"
+                            alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="OurClients.html"><span class="active__underline">Our
+                        Clients<span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a></span>
+                <input type="checkbox" class="checkBox" id="drop-2" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="CorporateIssuers.html">Corporate Issuers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Fund&AssetManagers.html">Fund & Asset Managers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="AssetBackedSecurities.html">Asset Backed Securities</a></li>
+                    <li><a class="ul__list__only" href="StructuredProducts.html">Structured Products</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- Our Clients -->
+            <li><a class="undered" href="News&Resources.html">News & Resources</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle"><span
+                        onclick="imageClick('EDGAREdgeLogin.html')">Login</span><span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="EDGAREdgeLogin.html"><span
+                        class="active__underline">Login<span><img src="./Assets/Icons/chevron-down.svg"
+                                alt="chevron-down"></span></a></span>
+                <input type="checkbox" class="checkBox" id="drop-3" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAREdge.html">EDGAR Edge</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Section16.html">Section 16</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Form13F.html">Form 13F</a></li>
+                    <li><a class="ul__list__only" href="N-Port-N-Cen.html">N-Port/N-Cen</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Schedule13G.html">Schedule 13G</a>
+                    </li>
+                    <li><a class="ul__list__only" href="LiquidityCompliance.html">Liquidity
+                            Compliance</a></li>
+                    <li><a class="ul__list__only" href="AutomatedConversionTools.html">Automated
+                            Conversion</a></li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <li><a class="undered" href="tel:+212-631-7521"><span><img id="Unique__Ion"
+                            src="./Assets/Icons/Phone_Icon.svg" alt="Phone-Icon"></span>
+                    212-631-7521</a>
+            </li>
+            <li id="unique__lis"><a href="Contactus.html" class="Slide__left"
+                    style="background-color: #de3d3b;color: white;" id="Block"><span class="dark">Contact</span> <br>
+                    <span style="margin: 0% 26%;"><img id="Unique__Ion" class="IE__10"
+                            src="Assets/Icons/arrow-right  white-01-01.svg" style="width: 20px;" alt=""></span></a></li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+
+    <!-- Hero Banner -->
+    <section class="NwesRes__Hero_Banner_Section">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="NewsR__banner__image__div">
+            <img class="NewSRes__banner__image" src="Assets/Compressed Images/GettyImages-981750028-min.jpg"
+                alt="Qes__HeroBanner" />
+        </div>
+        <div class="NwsRe__banner__overlay__div"></div>
+        <div class="NwsRe__banner__text__div">
+            <span class="banner-text">
+                <h1 class="Heading">News & Resources</h1>
+                <p class="Para">We’ve put together a group of useful news and information resources <br> designed to
+                    make
+                    your SEC filing easier and to keep you informed on <br> compliance regulation updates.
+            </span>
+        </div>
+    </section>
+    <!-- Hero Banner Ends Here -->
+
+    <!-- BVSElect starts here -->
+    <!-- BVSELECT Remove section -->
+    <!-- <section>
+        <div class="container BvSelect__fullcontainer">
+            <div class="Main__selectBox">
+                <div class="SelectBox__Text">
+                    <p class="NewsS__subpara">DOCUMENT SEARCH</p>
+                    <h3 class="Nwes__H3__text">SEC Filing Questions<h3>
+                </div>
+                <select name="" id="Redirection">
+                    <option value="1">8-K</option>
+                    <option value="2">10-K</option>
+                    <option value="3">10-Q</option>
+                    <option value="4">Form 3</option>
+                    <option value="5">Form 4</option>
+                    <option value="6">Form 5</option>
+                    <option value="7">Proxy Form</option>
+                </select>
+                <div class="Button__Select">
+                    <p id="Hover"><span id="span"><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                alt=""></span><button class="btns" onclick="getval()" value="Continue">Search</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- BVSELECT Remove section -->
+    <!-- BVselect ends here -->
+
+
+    <!-- Rows & Column section starts here -->
+    <section id="Rows__section__hoverable">
+        <div class="container News&Row__container">
+            <div class="Text__inside__row__starts">
+                <p class="QES__TEXT__rowsH">RESOURCES</p>
+                <h3 class="QES__Text__h3H">Links To Helpful Resources</h3>
+            </div>
+            <!-- First row starts here -->
+            <div class='QES__SECTION__GRya__row'>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor"
+                        href="https://www.filermanagement.edgarfiling.sec.gov/filermgmt/Welcome/EDGARFilerMgmtMain.htm">
+                        <div class='Grya__colInsideCol'>
+                            EDGAR Filer Management Website
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor" href="https://www.sec.gov/edgar/filer-information/contact-filer-support">
+                        <div class='Gray__cindise__col'>
+                            SEC Contact Information
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- First row ends here -->
+            <!-- second row starts here -->
+            <div class='QES__SECTION__GRya__row'>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor" href="https://www.sec.gov/edgar/filer-information/calendar">
+                        <div class='Grya__colInsideCol'>
+                            EDGAR Calendar
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor" href="https://www.sec.gov/contact-information/sec-directory">
+                        <div class='Gray__cindise__col'>
+                            Useful SEC Phone Numbers
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- second row ends here -->
+            <!-- third row starts here -->
+            <div class='QES__SECTION__GRya__row'>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor" href="https://www.sec.gov/edgar/filer-information">
+                        <div class='Grya__colInsideCol'>
+                            EDGAR Information for Filers
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor" href="https://www.sec.gov/edgar/search-and-access">
+                        <div class='Gray__cindise__col'>
+                            Search EDGAR Database
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- third row ends here -->
+            <!-- fourth row starts here -->
+            <div class='QES__SECTION__GRya__row'>
+                <div class='QES__Section__Grya__col'>
+                    <a class="Unique__anchor" href="https://www.sec.gov/page/regulation">
+                        <div class='Grya__colInsideCol'>
+                            Current SEC Rulemaking
+                            <span style="float: right;color: white;"><img src="./Assets/Arrow.png" width="20px"
+                                    alt=""></span>
+                        </div>
+                    </a>
+                </div>
+                <div class='QES__Section__Grya__col'>
+                    <!-- Empty row__xx__xx -->
+                </div>
+            </div>
+            <!-- fourth row ends here -->
+        </div>
+    </section>
+    <!-- Rows & Column section ends here -->
+
+    <!-- Post Layout Starts here -->
+    <section id="Latest__News">
+        <div class="container Post__Layout__container">
+            <div class="Text__only__headCon">
+                <p class="QES__TEXT__rowsH">NEWS</p>
+                <h3 class="QES__Text__h3H">Latest SEC News</h3>
+            </div>
+            <div class="Post__layoutInsert">
+                <div id="rss-feeds"></div>
+                <!-- <div class="First__Post">
+                    <a href="#">
+                        <p>SEC Awards More Than $31 Million to Whistleblowers in Two Enforcement Actions</p>
+                    </a>
+                    <p>May 17, 2021</p>
+                </div>
+                <div class="First__Post">
+                    <a href="#">
+                        <p>SEC Charges S&P Dow Jones Indices for Failures Relating to Volatility-Related Index</p>
+                    </a>
+                    <p>May 17, 2021</p>
+                </div> -->
+                <!-- <div class="First__Post">
+                    <a href="#">
+                        <p>SEC Awards Approximately $3.6 Million to Whistleblower</p>
+                    </a>
+                    <p>May 12, 2021</p>
+                </div> -->
+                <!-- <div class="First__Post">
+                    <a href="#">
+                        <p>SEC Charges Broker-Dealer for Failures Related to Filing Suspicious Activity Reports</p>
+                    </a>
+                    <p>May 12, 2021</p>
+                </div> -->
+                <!-- <div class="First__Post">
+                    <a href="#">
+                        <p>SEC Awards $22 Million to Two Whistleblowers</p>
+                    </a>
+                    <p>May 10, 2021</p>
+                </div> -->
+                <!-- <div class="First__Post">
+                    <a href="#">
+                        <p class="Unique__post__br">SEC Approves Registration of First Security-Based Swap Data
+                            Repository; Sets the First <br>
+                            Compliance Date for Regulation SBSR
+                        </p>
+                    </a>
+                    <p>May 7, 2021</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Post Layout ends here -->
+
+
+    <!-- Pdf section starts here -->
+    <section id="Pdf__section">
+        <div id="color-overlay"></div>
+        <div class="container Pdf__sections">
+            <div class="Text__only__headCon">
+                <p class="QES__TEXT__rowsH">CALENDAR</p>
+                <h3 class="QES__Text__h3H">SEC Filing Deadline Calendar</h3>
+            </div>
+            <div class="Pdf__file__max">
+                <img src="./Assets/Bg Images/0001.jpg" alt="">
+            </div>
+            <div class="Button__Aside__SS">
+                <a href="https://www.qualityedgarsolutions.com/pdfs/Filing_Calendar.pdf"
+                    download="SEC__Filing__Calendar">
+                    <p id="Hover"><span id="span"><img src="./Assets/Icons/arrow-right red-01.svg" style="width: 20px;"
+                                alt=""></span><button class="btns">Download</button></p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Pdf section ends here -->
+
+
+    <!-- Footer Starts Here -->
+    <div class="Footer__showcase1" id="MRK__Up">
+        <img id="Imgs" src="./Assets/QES__Video/ezgif.com-gif-maker-min.gif" alt="Gif">
+        <div class="overlay">
+            <h2 class="centerized">Get Started with a Trusted SEC Compliance Expert</h2>
+            <p class="centerized" id="uniags">
+                Contact us to find out what we can do for you or to schedule a demo.
+            </p>
+            <div class="fines" id="Upper__QES">
+                <a href="Contactus.html">
+                    <p id="Hover"><span id="spans"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                style="width: 20px;" alt=""></span><button style="color: white;" class="btns">Learn
+                            More</button>
+                    </p>
+                </a>
+            </div>
+            <div class="line__full">
+                <hr id="size">
+            </div>
+            <div class="container Footer__Contained">
+                <div class='Footer__Row'>
+                    <div class='Footer__Dbcol'>
+                        <div class='Footer__Leftcol'>
+                            <p class="footer_para">&copy; Quality EDGAR Solutions, LLC , All Rights Reserved.</p>
+                            <p class="footer_para">EDGAR is a registered trademark of the U.S Securities and Exchange
+                                Commission.</p>
+                        </div>
+                    </div>
+                    <div class='Footer__Column'>
+                        <!-- social Icons -->
+                        <div class="Social_wrapper" style="display: flex;">
+                            <p id="nishyg" style="transform: translate(10px, 20px);">Privacy & Cookie Policy</p>
+                            <div class="Icon__Wrapper" style="display: flex;flex-direction: row-reverse;">
+                                <a href="https://www.linkedin.com/company/quality-edgar-solutions/"
+                                    class="icon-button twitter"><img src="./Assets/Icons/LinkedIn_Icon.svg"
+                                        alt="QES__LinkedIn_Icon"><span></span></a>
+                                <a href="https://twitter.com/qualityedgar?lang=en" class="icon-button facebook"><img
+                                        src="./Assets/Icons/Twitter_Icon.svg" alt="QES__Twitter_Icon"><span></span></a>
+                            </div>
+                        </div>
+                        <!-- social Icon Ends Here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.nest/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Jquery Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="JS/index.js"></script>
+
+    <script src="JS/bvselect.js"></script>
+
+    <script src="./JS/Redirection.js"></script>
+
+    <script type="text/javascript">
+        const currentLocation = location.href;
+        const menuItem = document.getElementsByClassName('undered');
+        const menuLength = menuItem.length
+        for (let i = 0; i < menuLength; i++) {
+            if (menuItem[i].href === currentLocation) {
+                menuItem[i].className = "active"
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox__Main').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <!-- RSS FEED SCRIPTING STARTS HERE -->
+    <script src="./JS/jquery.rss.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $("#rss-feeds").rss("https://www.sec.gov/news/pressreleases.rss", {
+                limit: 5,
+                layoutTemplate: "{entries}",
+                entryTemplate:
+                    "<div class='entry'><a class='Anchor__Tag' href={url}><p class='Title__Rss'>{title}</p></a><div><p class='Date__Time'>[{date}]</p></div></div>",
+                dateFormat: 'ddd, DD MMM YYYY',
+                success: function () {
+                    $(".entry").each(function (i, entry) {
+                        $(entry).slideDown();
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

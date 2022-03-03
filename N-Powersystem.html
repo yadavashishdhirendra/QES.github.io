@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+    <link rel="stylesheet" href="CSS/ServiceRes.css">
+
+    <!-- font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="Assets/Logo/QES_FavIcon.svg" type="image/x-icon">
+    <title>QES - N-Power System</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="container wrapper">
+        <div id="logo" style="display: inline;"><img id="QES__Logo" width="300" src="./Assets/Logo/QES_Logo.svg"
+                alt="QES_Logo" onclick="imageClick('index.html')">
+            <label id="Label__float" for="drop" class="toggle"><img id="Nav__Logo" src="./Assets/Icons/menu.png"
+                    style="width: 35px;" alt="Menu Icon"></label>
+        </div>
+
+        <input type="checkbox" class="checkBox__Main" id="drop" />
+        <ul class="menu">
+            <li><a class="undered" href="Aboutus.html">About Us</a>
+            </li>
+            <!-- what we do -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle"><span onclick="imageClick('WhatWeDo.html')">What
+                        We
+                        Do</span><span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="WhatWeDo.html">What We Do<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-1" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAR.html">EDGAR Services</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Typeset&Design.html">Typeset & Design</a>
+                    </li>
+                    <li><a class="ul__list__only" href="iXBRL-XBRL.html">iXBRL/XBRL</a></li>
+                    <li><a class="ul__list__only" href="FinancialPrinting&Mailing.html">Financial Printing & Mailing</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- what we do -->
+            <!-- Our Clients -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle"><span onclick="imageClick('OurClients.html')">Our
+                        Clients</span><span><img src="./Assets/Icons/chevron-down.svg"
+                            alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="OurClients.html">Our Clients<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-2" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="CorporateIssuers.html">Corporate Issuers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Fund&AssetManagers.html">Fund & Asset Managers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="AssetBackedSecurities.html">Asset Backed Securities</a></li>
+                    <li><a class="ul__list__only" href="StructuredProducts.html">Structured Products</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- Our Clients -->
+            <li><a class="undered" href="News&Resources.html">News & Resources</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle"><span
+                        onclick="imageClick('EDGAREdgeLogin.html')">Login</span><span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="EDGAREdgeLogin.html">Login<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-3" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAREdge.html">EDGAR Edge</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Section16.html">Section 16</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Form13F.html">Form 13F</a></li>
+                    <li><a class="ul__list__only" href="N-Port-N-Cen.html">N-Port/N-Cen</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Schedule13G.html">Schedule 13G</a>
+                    </li>
+                    <li><a class="ul__list__only" href="LiquidityCompliance.html">Liquidity
+                            Compliance</a></li>
+                    <li><a class="ul__list__only" href="AutomatedConversionTools.html">Automated
+                            Conversion</a></li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <li><a class="undered" href="tel:+212-631-7521"><span><img id="Unique__Ion"
+                            src="./Assets/Icons/Phone_Icon.svg" alt="Phone-Icon"></span>
+                    212-631-7521</a>
+            </li>
+            <li id="unique__lis"><a href="Contactus.html" class="Slide__left"
+                    style="background-color: #de3d3b;color: white;" id="Block"><span class="dark">Contact</span> <br>
+                    <span style="margin: 0% 26%;"><img id="Unique__Ion" class="IE__10"
+                            src="Assets/Icons/arrow-right  white-01-01.svg" style="width: 20px;" alt=""></span></a></li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+
+    <!-- Breadcrumb Starts Here -->
+    <div id="Banner__Breadcrumb">
+        <div class="container breadcrumb__inside">
+            <p style="margin-bottom: 0rem;"><span><a href="index.html"><img src="Assets/Icons/House_Icon.png"
+                            alt=""></a></span>
+            </p> <span id="Breadcrum__para_text" style="transform: translate(15px, 2px);"><a href="">QES</a> &nbsp; >
+                &nbsp; <a href="index.html#What_we_Do">What We Do</a>
+                &nbsp; > &nbsp; <a href="">N-Power System</a></span>
+        </div>
+    </div>
+    <!-- Breadcrumb Ends Here -->
+    <!-- Hero Banner -->
+    <section class="Services_Hero_Banner_Section">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="Services-banner-image-div">
+            <img class="services-banner-image" id="Banner__position"
+                src="Assets/Compressed Images/GettyImages-1065352104.jpg" alt="Qes__HeroBanner" />
+        </div>
+        <div class="services-banner-overlay-div"></div>
+        <div class="services-banner-text-div">
+            <span class="banner-text">
+                <h1 class="Heading">N-Power System</h1>
+            </span>
+        </div>
+    </section>
+    <!-- Hero Banner Ends Here -->
+
+
+    <!-- Text Starts Here -->
+    <section id="QES__WWD1">
+        <div class="container" id="Listing__QES">
+            <p class="QES__subpara__text">OVERVIEW OF WHAT WE DO</p>
+            <h3 class="QES__H3__text">Work in Your Own Secure Environment</h3>
+            <p class="QES__Para__text">A custom application installed on client premises lets users directly manage
+                high-volume filings (specifically <br> XML) without data leaving their own secure environment until
+                filing.
+                N-Power ingests data from a broad <br> range of inputs (Excel, CSV, JSON API push) and output Structure
+                XML
+                Reports.
+            </p>
+            <ul id="List__Removebr">
+                <li>
+                    <p>Cloud and local application
+                    </p>
+                </li>
+                <li>
+                    <p>Capable of processing N-PORT, N-CEN, Liquidity Reporting, 13F, 13G
+                    </p>
+                </li>
+                <li>
+                    <p>Batch processing, convert and file thousands of reports with one command
+                    </p>
+                </li>
+                <li>
+                    <p>PDF and Excel report output generation for client review</p>
+                </li>
+                <li>
+                    <p>Built to SEC EDGAR system but can be adapted for any regulatory body that allows for electronic
+                        <br>
+                        filing software.
+                    </p>
+                </li>
+                <li>
+                    <p>Report sign off and authorization permission system
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Text Ends Here -->
+
+    <!-- Footer Starts Here -->
+    <div id="Footer__Container">
+        <footer id="footer">
+            <div class="Footer__showcase">
+                <img id="Imgs" src="./Assets/QES__Video/ezgif.com-gif-maker-min.gif" alt="Gif">
+                <div class="overlay">
+                    <h2 class="centerized">Get Started with a Trusted SEC Compliance Expert</h2>
+                    <p class="centerized" id="uniags">
+                        Contact us to find out what we can do for you or to schedule a demo.
+                    </p>
+                    <div class="fines" id="Upper__QES">
+                        <a href="Contactus.html">
+                            <p id="Hover"><span id="spans"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                        style="width: 20px;" alt=""></span><button style="color: white;"
+                                    class="btns">Learn
+                                    More</button>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="line__full">
+                        <hr id="size">
+                    </div>
+                    <div class="container Footer__Contained">
+                        <div class='Footer__Row'>
+                            <div class='Footer__Dbcol'>
+                                <div class='Footer__Leftcol'>
+                                    <p class="footer_para">&copy; Quality EDGAR Solutions, LLC , All Rights Reserved.
+                                    </p>
+                                    <p class="footer_para">EDGAR is a registered trademark of the U.S Securities and
+                                        Exchange
+                                        Commission.</p>
+                                </div>
+                            </div>
+                            <div class='Footer__Column'>
+                                <!-- social Icons -->
+                                <div class="Social_wrapper" style="display: flex;">
+                                    <p id="nishyg" style="transform: translate(10px, 20px);">Privacy & Cookie Policy</p>
+                                    <div class="Icon__Wrapper" style="display: flex;flex-direction: row-reverse;">
+                                        <a href="https://www.linkedin.com/company/quality-edgar-solutions/"
+                                            class="icon-button twitter"><img src="./Assets/Icons/LinkedIn_Icon.svg"
+                                                alt="QES__LinkedIn_Icon"><span></span></a>
+                                        <a href="https://twitter.com/qualityedgar?lang=en"
+                                            class="icon-button facebook"><img src="./Assets/Icons/Twitter_Icon.svg"
+                                                alt="QES__Twitter_Icon"><span></span></a>
+                                    </div>
+                                </div>
+                                <!-- social Icon Ends Here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer Ends Here -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.nest/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Jquery Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="JS/index.js"></script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox__Main').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+</body>
+
+</html>

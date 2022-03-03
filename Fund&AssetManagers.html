@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/Responsive.css">
+    <link rel="stylesheet" href="./CSS/ServiceRes.css">
+
+    <link rel="stylesheet" href="./CSS/WWD.css">
+
+    <!-- font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="Assets/Logo/QES_FavIcon.svg" type="image/x-icon">
+    <title>QES - Fund & Asset Managers</title>
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <nav class="container wrapper">
+        <div id="logo" style="display: inline;"><img id="QES__Logo" width="300" src="./Assets/Logo/QES_Logo.svg"
+                alt="QES_Logo" onclick="imageClick('index.html')">
+            <label id="Label__float" for="drop" class="toggle"><img id="Nav__Logo" src="./Assets/Icons/menu.png"
+                    style="width: 35px;" alt="Menu Icon"></label>
+        </div>
+
+        <input type="checkbox" class="checkBox__Main" id="drop" />
+        <ul class="menu">
+            <li><a class="undered" href="Aboutus.html">About Us</a>
+            </li>
+            <!-- what we do -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-1" class="toggle"><span onclick="imageClick('WhatWeDo.html')">What
+                        We
+                        Do</span><span><img src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="WhatWeDo.html">What We Do<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-1" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAR.html">EDGAR Services</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Typeset&Design.html">Typeset & Design</a>
+                    </li>
+                    <li><a class="ul__list__only" href="iXBRL-XBRL.html">iXBRL/XBRL</a></li>
+                    <li><a class="ul__list__only" href="FinancialPrinting&Mailing.html">Financial Printing & Mailing</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- what we do -->
+            <!-- Our Clients -->
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle"><span onclick="imageClick('OurClients.html')">Our
+                        Clients</span><span><img src="./Assets/Icons/chevron-down.svg"
+                            alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="OurClients.html">Our Clients<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-2" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="CorporateIssuers.html">Corporate Issuers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Fund&AssetManagers.html">Fund & Asset Managers</a>
+                    </li>
+                    <li><a class="ul__list__only" href="AssetBackedSecurities.html">Asset Backed Securities</a></li>
+                    <li><a class="ul__list__only" href="StructuredProducts.html">Structured Products</a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <!-- Our Clients -->
+            <li><a class="undered" href="News&Resources.html">News & Resources</a></li>
+            <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle"><span
+                        onclick="imageClick('EDGAREdgeLogin.html')">Login</span><span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></label>
+                <a class="Underline__active undered" href="EDGAREdgeLogin.html">Login<span><img
+                            src="./Assets/Icons/chevron-down.svg" alt="chevron-down"></span></a>
+                <input type="checkbox" class="checkBox" id="drop-3" />
+                <!-- <div class="ex-1"> -->
+                <ul class="Superb__Nav__links">
+                    <li><a class="ul__list__only" href="EDGAREdge.html">EDGAR Edge</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Section16.html">Section 16</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Form13F.html">Form 13F</a></li>
+                    <li><a class="ul__list__only" href="N-Port-N-Cen.html">N-Port/N-Cen</a>
+                    </li>
+                    <li><a class="ul__list__only" href="Schedule13G.html">Schedule 13G</a>
+                    </li>
+                    <li><a class="ul__list__only" href="LiquidityCompliance.html">Liquidity
+                            Compliance</a></li>
+                    <li><a class="ul__list__only" href="AutomatedConversionTools.html">Automated
+                            Conversion</a></li>
+                </ul>
+                <!-- </div> -->
+            </li>
+            <li><a class="undered" href="tel:+212-631-7521"><span><img id="Unique__Ion"
+                            src="./Assets/Icons/Phone_Icon.svg" alt="Phone-Icon"></span>
+                    212-631-7521</a>
+            </li>
+            <li id="unique__lis"><a href="Contactus.html" class="Slide__left"
+                    style="background-color: #de3d3b;color: white;" id="Block"><span class="dark">Contact</span> <br>
+                    <span style="margin: 0% 26%;"><img id="Unique__Ion" class="IE__10"
+                            src="Assets/Icons/arrow-right  white-01-01.svg" style="width: 20px;" alt=""></span></a></li>
+        </ul>
+    </nav>
+    <!-- Navbar Ends Here -->
+
+
+    <!-- Breadcrumb Starts Here -->
+    <div id="Banner__Breadcrumb">
+        <div class="container breadcrumb__inside">
+            <p style="margin-bottom: 0rem;"><span><a href="index.html"><img src="Assets/Icons/House_Icon.png"
+                            alt=""></a></span>
+            </p> <span id="Breadcrum__para_text" style="transform: translate(15px, 2px);"><a href="">QES</a> &nbsp; >
+                &nbsp; <a href="index.html#What_we_Do">What We Do</a>
+                &nbsp; > &nbsp; <a href="">Fund & Asset Managers</a></span>
+        </div>
+    </div>
+    <!-- Breadcrumb Ends Here -->
+    <!-- Hero Banner -->
+    <section class="WhatWEdo_Hero_Banner_NextISection">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="WhatWEdo-banner-image-divNexrI">
+            <img class="WhatWEdo-banner-imageNexTi" src="./Assets/Compressed Images/GettyImages-1209420474 (1).jpg"
+                alt="Qes__HeroBanner" />
+        </div>
+        <div class="WhatWEdo-banner-overlay-divNeXtI"></div>
+        <div class="WhatWEDo-banner-text-divNexrTI">
+            <span class="banner-text">
+                <h1 class="Heading">Fund & Asset <br> Managers</h1>
+            </span>
+        </div>
+    </section>
+    <!-- Hero Banner Ends Here -->
+
+    <!-- Only Text In What we Do core pages starts here -->
+    <section id="Text__IncorePages__WWD">
+        <div class="container Text__IncorePages__WhatWEDo">
+            <p>OVERVIEW</p>
+            <h3>Covering the Investment Landscape</h3>
+            <p>Our team has over 25 years of experience supporting fund complexes and asset managers across the ’40 <br>
+                Act
+                space. We work closely with fund administrators, legal counsel, and internal fund staff, providing them
+                <br>
+                with the ability to meet all SEC ’40 Act filing and print mandates.
+            </p>
+        </div>
+    </section>
+    <!-- Only Text In What we Do core pages ends here -->
+
+
+    <!-- Rays section in WWD Core pages starts here -->
+    <section id="CI__Rays__section">
+        <div class="container">
+            <!-- 1 of 2 column starts here -->
+            <div class='Full__WidthCI__Container'>
+                <div class='Full__widthCI__Row'>
+                    <div class='Full__widthCI__Col'>
+                        <div class='CI__LeftCol__2row'>
+                            <!-- Text Starts here -->
+                            <div class="Text__inside__CI">
+                                <p>SERVICES</p>
+                                <h3>Delivering Words and <br> Data in Multiple Forms</h3>
+                            </div>
+                            <!-- Text Ends here -->
+                            <!-- Row starts here -->
+                            <div class='Floating__div__container__InsideCI'>
+                                <div class='Two__row__insideDIV'>
+                                    <a href="EDGAR.html">
+                                        <div class='CI__ColInsideCI'>
+                                            <div class='Col__Inside__leftColCI'>
+                                                <div class="CI__Float__InsideDIV">
+                                                    <p><span class="QES__Underline__text">EDGAR</span></p>
+                                                    <p class="QES__WDD__ServPar">Providing
+                                                        fast, high-quality, SEC- <br> compliant document conversion
+                                                        and <br>
+                                                        filing solutions 24/7.</p>
+                                                    <span><img src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                    <a href="iXBRL-XBRL.html">
+                                        <div class='CI__ColInsideCI'>
+                                            <div class='Col__Inside__rightColCI'>
+                                                <div class="CI__Float__InsideDIV">
+                                                    <p><span class="QES__Underline__text">iXBRL/XBRL</span></p>
+                                                    <p class="QES__WDD__ServPar">Delivering accurate XBRL tagging and
+                                                        filing supported by an expert team of accountants, CPAs and
+                                                        regulatory compliance specialists. Our iXBRL tagging system
+                                                        maintains formatting on even highly stylized work and also
+                                                        allows for R-Tagging of prospectus filings along with the inline
+                                                        XBRL.</p>
+                                                    <span><img src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                </div>
+                            </div>
+                            <!-- Row ends here -->
+                        </div>
+                    </div>
+                    <div class='Full__widthCI__Col'>
+                        <div class='CI__RightCol__2row'>
+                            <!-- Row starts here -->
+                            <div class='Non__Floating__DIVConatinerCI'>
+                                <div class='Non__floating__DIVCI__row'>
+                                    <div class='Non__floatingDIVCI__col'>
+                                        <div class='Non__float__topSide__one'>
+                                            <!-- Floating Div starts here -->
+                                            <a href="Typeset&Design.html">
+                                                <div class="CI__FloatingNow__leftside">
+                                                    <p><span class="QES__Underline__text">Typeset & Design</span></p>
+                                                    <p class="QES__WDD__ServPar">Leveraging our composition and <br>
+                                                        design
+                                                        team,
+                                                        we quickly and <br> accurately produce financial <br> documents,
+                                                        reporting and <br>
+                                                        publications.</p>
+                                                    <span><img id="SlightY__up"
+                                                            src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </a>
+                                            <!-- Floating Div Ends here -->
+                                        </div>
+                                    </div>
+                                    <div class='Non__floatingDIVCI__col'>
+                                        <div class='Non__float__bottomSide__one'>
+                                            <!-- Floating Div starts here -->
+                                            <a href="FinancialPrinting&Mailing.html">
+                                                <div class="CI__FloatingNow__leftside">
+                                                    <p><span class="QES__Underline__text">Financial Printing &
+                                                            Mailing</span></p>
+                                                    <p class="QES__WDD__ServPar">Offering a state-of-the-art source for
+                                                        <br>
+                                                        cost-effective large-scale and short- <br> run printing, mailing
+                                                        and
+                                                        fulfillment of <br> all your financial documents.
+                                                    </p>
+                                                    <span><img id="SlightY__down"
+                                                            src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </a>
+                                            <!-- Floating Div Ends here -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row ends here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 1 of 2 column ends here -->
+        </div>
+    </section>
+    <!-- Rays section in WWD core pages ends here -->
+
+
+    <!-- Rays section in WWD Core pages starts here2 -->
+    <section id="CI__Rays__section__below__nonebg">
+        <div class="container">
+            <!-- 1 of 2 column starts here -->
+            <div class='Full__WidthCI__Containers'>
+                <div class='Full__widthCI__Rows'>
+                    <div class='Full__widthCI__Cols'>
+                        <div class='CI__LeftCol__2rows'>
+                            <!-- Text Starts here -->
+                            <div class="Text__inside__CIs">
+                                <p>TECHNOLOGY</p>
+                                <h3>Specialized Solutions for <br> Corporate Issuers</h3>
+                            </div>
+                            <!-- Text Ends here -->
+                            <!-- Row starts here -->
+                            <div class='Floating__div__container__InsideCIs'>
+                                <div class='Two__row__insideDIVs'>
+                                    <a href="SingleSource.html">
+                                        <div class='CI__ColInsideCIs'>
+                                            <div class='Col__Inside__leftColCIs'>
+                                                <div class="CI__Float__InsideDIVs">
+                                                    <p><span class="QES__Underline__texts">SingleSource</span></p>
+                                                    <p class="QES__WDD__ServPars">Takes typeset files and outputs them
+                                                        <br>
+                                                        to
+                                                        EDGAR-compliant HTML, ensuring <br> data integrity through the
+                                                        document <br>
+                                                        lifecycle. Our system replicates and <br> maintains precise
+                                                        formatting on
+                                                        even <br> highly stylized typeset documents.
+                                                    </p>
+                                                    <span><img src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- xx -->
+                                    <a href="N-Port-N-Cen.html">
+                                        <div class='CI__ColInsideCIs'>
+                                            <div class='Col__Inside__rightColCIs'>
+                                                <div class="CI__Float__InsideDIVs">
+                                                    <p><span class="QES__Underline__texts">N-Port/N-Cen</span></p>
+                                                    <p class="QES__WDD__ServPars">Monthly portfolio reports and annual
+                                                        <br>
+                                                        fund
+                                                        reports in an XML format, <br> produced using a flexible and
+                                                        efficient <br>
+                                                        cloud-based system.
+                                                    </p>
+                                                    <span><img src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Row ends here -->
+                        </div>
+                    </div>
+                    <div class='Full__widthCI__Cols'>
+                        <div class='CI__RightCol__2rows'>
+                            <!-- Row starts here -->
+                            <div class='Non__Floating__DIVConatinerCIs'>
+                                <div class='Non__floating__DIVCI__rows'>
+                                    <div class='Non__floatingDIVCI__cols'>
+                                        <div class='Non__float__topSide__ones'>
+                                            <!-- Floating Div starts here -->
+                                            <a href="Microsites&E-Delivery.html">
+                                                <div class="CI__FloatingNow__leftsides">
+                                                    <p><span class="QES__Underline__texts">Microsites &
+                                                            E-Delivery</span>
+                                                    </p>
+                                                    <p class="QES__WDD__ServPars">Designed for webhosting of client
+                                                        documents with e-delivery options <br> that direct shareholders
+                                                        to
+                                                        sites
+                                                        which can <br> be customized and branded.</p>
+                                                    <span><img id="SlightY__ups"
+                                                            src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </a>
+                                            <!-- Floating Div Ends here -->
+                                        </div>
+                                    </div>
+                                    <div class='Non__floatingDIVCI__cols' id="IE__MT__Col">
+                                        <div class='Non__float__bottomSide__ones'>
+                                            <!-- Floating Div starts here -->
+                                            <a href="N-Powersystem.html">
+                                                <div class="CI__FloatingNow__leftsides">
+                                                    <p><span class="QES__Underline__texts">N-Power Systems</span></p>
+                                                    <p class="QES__WDD__ServPars">A custom application installed on <br>
+                                                        client
+                                                        premise that lets clients directly <br> manage high-volume
+                                                        filings
+                                                        <br>
+                                                        (specifically XML) like N-PORT, N- <br> CEN, and 13F forms
+                                                        without
+                                                        data <br>
+                                                        leaving their own secure environment <br> until filing.
+                                                    </p>
+                                                    <span><img id="SlightY__downs"
+                                                            src="./Assets/Icons/arrow-right red-01.svg"
+                                                            style="width: 20px;float: right;" alt=""></span>
+                                                </div>
+                                            </a>
+                                            <!-- Floating Div Ends here -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='Non__floatingDIVCI__cols' id="IE__MT__Col2">
+                                    <div class='Non__float__bottomSide__ones'>
+                                        <!-- Floating Div starts here -->
+                                        <a href="LiquidityCompliance.html">
+                                            <div class="CI__FloatingNow__leftsides">
+                                                <p><span class="QES__Underline__texts">Liquidity Compliance</span></p>
+                                                <p class="QES__WDD__ServPars">
+                                                    A comprehensive tool that lets 40 Act <br> Funds meet SEC liquidity
+                                                    regulatory <br> requirements.
+                                                </p>
+                                                <span><img id="SlightY__downs"
+                                                        src="./Assets/Icons/arrow-right red-01.svg"
+                                                        style="width: 20px;float: right;" alt=""></span>
+                                            </div>
+                                        </a>
+                                        <!-- Floating Div Ends here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row ends here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 1 of 2 column ends here -->
+        </div>
+    </section>
+    <!-- Rays section in WWD core pages ends here -->
+
+    <!-- Footer Starts Here -->
+    <div class="Footer__showcase" style="top: -150px;">
+        <img id="Imgs" src="./Assets/QES__Video/ezgif.com-gif-maker-min.gif" alt="Gif">
+        <div class="overlay">
+            <h2 class="centerized">Get Started with a Trusted SEC Compliance Expert</h2>
+            <p class="centerized" id="uniags">
+                Contact us to find out what we can do for you or to schedule a demo.
+            </p>
+            <div class="fines" id="Upper__QES">
+                <a href="Contactus.html">
+                    <p id="Hover"><span id="spans"><img src="./Assets/Icons/arrow-right  white-01-01.svg"
+                                style="width: 20px;" alt=""></span><button style="color: white;" class="btns">Learn
+                            More</button>
+                    </p>
+                </a>
+            </div>
+            <div class="line__full">
+                <hr id="size">
+            </div>
+            <div class="container Footer__Contained">
+                <div class='Footer__Row'>
+                    <div class='Footer__Dbcol'>
+                        <div class='Footer__Leftcol'>
+                            <p class="footer_para">&copy; Quality EDGAR Solutions, LLC , All Rights Reserved.</p>
+                            <p class="footer_para">EDGAR is a registered trademark of the U.S Securities and Exchange
+                                Commission.</p>
+                        </div>
+                    </div>
+                    <div class='Footer__Column'>
+                        <!-- social Icons -->
+                        <div class="Social_wrapper" style="display: flex;">
+                            <p id="nishyg" style="transform: translate(10px, 20px);">Privacy & Cookie Policy</p>
+                            <div class="Icon__Wrapper" style="display: flex;flex-direction: row-reverse;">
+                                <a href="https://www.linkedin.com/company/quality-edgar-solutions/"
+                                    class="icon-button twitter"><img src="./Assets/Icons/LinkedIn_Icon.svg"
+                                        alt="QES__LinkedIn_Icon"><span></span></a>
+                                <a href="https://twitter.com/qualityedgar?lang=en" class="icon-button facebook"><img
+                                        src="./Assets/Icons/Twitter_Icon.svg" alt="QES__Twitter_Icon"><span></span></a>
+                            </div>
+                        </div>
+                        <!-- social Icon Ends Here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.nest/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+
+    <!-- Jquery Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="JS/index.js"></script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+
+    <script type="text/javascript">
+        // checkbox starts here
+        $('input.checkBox__Main').on('change', function () {
+            $('input.checkBox').not(this).prop('checked', false);
+        });
+// checkbox ends here
+    </script>
+</body>
+
+</html>
